@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>NVDA中文站 (文章有打酱油发布)</title><link>https://nvdacn.github.io/</link><description></description><atom:link href="https://nvdacn.github.io/authors/da-jiang-you.xml" rel="self" type="application/rss+xml"></atom:link><language>zh_cn</language><copyright>Contents © 2019 &lt;a href="mailto:dingpengyu06@gmail.com"&gt;nvdacn&lt;/a&gt; </copyright><lastBuildDate>Tue, 15 Jan 2019 05:25:39 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>NVDA 2018.4更新简报</title><link>https://nvdacn.github.io/posts/nvda-release2018-4/</link><dc:creator>打酱油</dc:creator><description>&lt;p&gt;各位好，时光匆匆，NVDA2018.4在今天早上就正式发布了。
+这次，NVDA2018.4主要更新和修复了以下问题，改进了最新版Firefox浏览器的性能，支持了表情符号的朗读，支持了Outlook的回复/转发状态的朗读，支持了Microsoft Word页面边距的朗读，以及其他错误修复。
+&lt;em&gt; 具体更新日志，用户指南，下载链接可从以下链接找到&lt;a href="https://www.nvdacn.com/usr/themes/default/changes.html"&gt;NVDA更新日志&lt;/a&gt;&lt;a href="https://www.nvdacn.com/usr/themes/default/userGuide.html"&gt;NVDA用户指南&lt;/a&gt;&lt;a href="https://www.nvdacn.com/nvda.html"&gt;下载NVDA&lt;/a&gt;
+&lt;/em&gt; 另外补充一下，从NVDA2018.4开始，使用盲文显示器的用户，可直接使用双拼，现行这两套盲文，因为这两套盲文已集成进了NVDA官方版本中。
+最后谈谈一年中我们都在做什么？从NVDA2018.4开始，中文社区已有了很大变化，在这一年，主要大范围重做了NVDA官方插件页的翻译，创建了NVDA中文本地化交流群，大范围重做了NVDA用户指南和更新日志，和统一了翻译的版权，最后还把两套盲文表集成到了NVDA。
+PS： 感谢以下朋友给NVDA做出的贡献，人员不分先后
+&lt;em&gt; 用户指南，更新日志： 莱茵金属，星空
+&lt;/em&gt; 翻译审查： 目光
+* 盲文表： 素念，宇宙，Eureka，北极星，雪岭冰龙，空谷幽灵
+NVDA2018这一年的更新就到此告一段落了，开始并不代表着结束，我们2019再见。&lt;/p&gt;</description><guid>https://nvdacn.github.io/posts/nvda-release2018-4/</guid><pubDate>Mon, 17 Dec 2018 10:28:00 GMT</pubDate></item><item><title>nvda输入法未退款处理公告</title><link>https://nvdacn.github.io/posts/153/</link><dc:creator>打酱油</dc:creator><description>&lt;p&gt;到目前为止，我能处理的捐款都已经处理了，请仍然没有收到退款的同学尽快私聊我，提供名称截图和收款账号，以便我退款。请在十月十五号之前联系雪岭冰龙，qq:385356344，非常感谢。&lt;/p&gt;</description><guid>https://nvdacn.github.io/posts/153/</guid><pubDate>Mon, 01 Oct 2018 12:57:00 GMT</pubDate></item><item><title>输入法插件开发失败退款通告</title><link>https://nvdacn.github.io/posts/988/</link><dc:creator>打酱油</dc:creator><description>&lt;p&gt;by 雪岭冰龙。
+大家好，输入法插件开发失败这事儿大概都知道了吧，小规模退款也已经偷偷开始了。曾经交付给开发者的定金也已经骗到了手上，所以要退钱，请找雪岭冰龙。明天我放假，所以统一退款明天开始。请注意：
+1、退款账户有变动的，请在明天之内私聊雪岭冰龙，qq：385356344；
+2、有意向转给官方的，请私聊雪岭冰龙，之后会统一找时间转交给官方。
+请广而告之，让大家都知道这件事情，感谢大家一直以来的支持，也对这次的失败致以最诚挚的歉意，不管如何，付出总是不易，感谢大家一直以来的支持，不管如何，请继续支持nvda在中国的发展，支持在为大家付出的 志愿者们，感谢！&lt;/p&gt;</description><guid>https://nvdacn.github.io/posts/988/</guid><pubDate>Sat, 18 Aug 2018 07:14:47 GMT</pubDate></item><item><title>将黄未黄的输入法朗读插件开发项目</title><link>https://nvdacn.github.io/posts/10000-1/</link><dc:creator>打酱油</dc:creator><description>&lt;p&gt;大家一直期待着的输入法朗读插件的开发周期已经超过了25号，如果插件开发出来了，网站不就第一时间报喜了，显然没有，所以这次我是来报忧的。
+项目已经超时，而插件未能如期出现。按照之前的协定，我们应该追回首期汇款并结束这个项目。然而大家不会觉得可惜了吗？当初制定合同就是为了让大家能用上免费好用的输入法朗读插件，改善大家的朗读体验，按照合同执行，就说明这个项目就这样黄了，大家也不会有免费好用的输入法朗读插件了。我有这么想，还有多少人也这么想呢？我不知道，所以我们在qq群搞了个投票：有兴趣给建议的朋友请加群，加群链接：http://shang.qq.com/wpa/qunwpa?idkey=4e49a74cbe597b87d65de9707e362b6557b0162bd766069a32d0e99cb4c9d9d5
+或者在此直接留言也可。对于这个结果，我只能说非常抱歉，到底这个项目何去何从，大家决定咯，投票截止日期7月1日。
+投票选项分别为：1、我想要钱，插件随缘吧
+2；插件更重要，请继续开发
+3、我有话想说，请加群或留言表达您的建议。
+另，如果哪位想退款的话请直接联系我，随时均可。
+qq号：
+385356344
+邮箱：
+vgjh2005@gmail.com
+感谢大家一如既往的支持。退款与否都是大家的权利，请按照自己内心的想法执行即可，无需道德绑架。为了财务透明，本站也会出公告向公众展示，感谢大家的支持。
+by 雪岭冰龙&lt;/p&gt;</description><guid>https://nvdacn.github.io/posts/10000-1/</guid><pubDate>Wed, 27 Jun 2018 00:11:00 GMT</pubDate></item><item><title>百度翻译不能用？注册key吧。 </title><link>https://nvdacn.github.io/posts/1013/</link><dc:creator>打酱油</dc:creator><description>&lt;ol&gt;
+&lt;li&gt;打开下面网站：
+http://api.fanyi.baidu.com/api/trans/product/index&lt;/li&gt;
+&lt;li&gt;一路按下光标，找到“机器翻译”回车&lt;/li&gt;
+&lt;li&gt;点击“支持全球...”这一行文字下方的“查看详情 ”链接&lt;/li&gt;
+&lt;li&gt;按字母h进行标题跳转，请找到“只需四步，轻松接入服务”标题，点击下面的“立即使用”。&lt;/li&gt;
+&lt;li&gt;按ctrl+行尾组合件跳转到页面底部，回车点击“开始注册”链接。&lt;/li&gt;
+&lt;li&gt;“*开发者类型”下方选择“个人开发者”&lt;/li&gt;
+&lt;li&gt;按提示填入“姓名”、“联系邮箱”、“手机号码”&lt;/li&gt;
+&lt;li&gt;点击下方“获取验证码”链接，查看手机短信获取验证码并填入“验证码”文本框&lt;/li&gt;
+&lt;li&gt;最后点击“提交”链接完成注册。&lt;/li&gt;
+&lt;li&gt;注册成功之后，请在新弹出的页面查看appid和key。。
+ps：请按shift+alt+e打开插件设置对话框填入相关信息，点击保存，重启之后设置即告完成，百度愉快！&lt;/li&gt;
+&lt;/ol&gt;</description><guid>https://nvdacn.github.io/posts/1013/</guid><pubDate>Thu, 29 Mar 2018 12:58:00 GMT</pubDate></item><item><title>让nvda“”“飞”起来</title><link>https://nvdacn.github.io/posts/733/</link><dc:creator>打酱油</dc:creator><description>&lt;p&gt;多年以来，nvda以“慢”著称，大家不愿意把他用起来，这个原因占主要。几年过去了，nvda仍然是那么“慢”吗？其实不然。下面分享一系列电脑优化设置，让你的nvda“飞”起来。
+第一、加快nvda启动速度。从windows8开始，微软开始引入按优先级顺序启动的模式，故此，为了开机速度有个好看的数字，微软把许许多多程序排在了开机之后。值得注意的是，微软为无障碍程序“开绿灯”了。设置方法为：
+1、打开开始菜单/开始屏幕，键入“轻松访问中心”（不包括引号），在windows10下的搜索结果为“轻松使用设置中心”，照样打开即可；
+2、点击“使用没有显示的计算机”链接，打开“使用没有显示的计算机”窗口；
+3、勾选“nvda”复选框并点击确定，第一步设置完成。
+第二、发挥电脑的真正性能，让nvda“飞”起来。通常情况下，为了适应不同的使用需要，厂商都会为电脑们设置各种各样的电源方案。其中最常见的当属“平衡”了，这个方案的设置介乎于电量和性能之间，为电量和性能取得有效平衡。然而很多时候，省电可能并不是最重要的，牺牲速度才是最可怕的。笔者一度认为电源方案设置意义有线，区别不大，直到我也买了属于自己的笔记本。为了让电脑的真正性能发挥起来，我们可以把电源方案修改成高性能，设置方法为：
+1、按windows+x组合件，打开超级菜单；
+2、在其中选择“移动中心”，打开“Windows 移动中心”窗口。
+3、在“选择一个电源计划”组合框把电源方案改成“高性能”并直接关闭窗口即可，这样被禁锢已久的cpu等就可以放飞自我，你的nvda也就可以放飞自我了。
+第三、修改nvda进程优先级，让系统资源分配更实时。此处设置方法可能因系统而有所差异，因为我手上并没有windows8/8.1的机器，所以请各位自行摸索吧。大体思路为，进入任务管理器，找到nvda.exe和nvdaRemoteHelperLoader.exe，把优先级改成实时即可。下面以windows10为例，其他系统思路相近：
+1、按ctrl+shift+esc组合件打开任务管理器窗口，windows由于为其增加了许多保护措施，加载速度非常缓慢；
+2、找到“详细信息”选项卡；
+3、在列表中选中nvda.exe（NvdaRemoteHelperLoader.exe也相同）；
+4、按应用建或使用鼠标右键弹出菜单，找到“优先级”子菜单；
+5、最后选择实时并点击“更改优先级”按钮关闭窗口，关闭任务管理器即可完成设置。
+第四、nvda虽然速度变快了，但是读起来太啰嗦，咋整？方法仍然是有的，以浏览网页为例
+，excel、word等办公套件需要的是精度，可酌情勾选：
+先引用nvda帮助原文
+9.1.12. 文档格式设置 (NVDA+control+d)
+此对话框可以在“选项”菜单下的“文档格式...”找到。
+此对话框的大多数复选框都是用来配置，在您用光标浏览整个文档时朗读什么类型的格式信息。 例如，如果您选择了“朗读字体名称”复选框，每次您用光标进入拥有不同字体的文本时，字体名称就会被读出。
+文档格式信息已经被编成群组了。 您可以配置的朗读有：
+• 字体
+◦ 字体名称
+◦ 字体大小
+◦ 字体属性
+◦ 强调
+◦ 缩进
+◦ 颜色
+• 文档信息
+◦ 注释
+◦ 编辑者修订
+◦ 拼写错误
+• 页面和间距
+◦ Page numbers
+◦ 行数
+◦ 行首缩进提示方式 (关闭，语音，声音，语音和声音)
+◦ 段落缩进 (例如悬挂式缩进，首行缩进)
+◦ 行间距 (单行行间距，双倍行间距等)
+◦ 对齐方式
+• 表格信息
+◦ 表格
+◦ 行/列标题
+◦ 单元坐标
+• 元素
+◦ 标题
+◦ 链接
+◦ 列表
+◦ 引用区
+◦ 路标
+◦ 框架
+◦ 可点击
+-如果某些东西可点击 -
+要想在任何地方切换这些设置，可在输入手势对话框设置一个自定义手势
+浏览网页时建议保留的设置为：
+链接
+标题
+路标
+表格信息如有读取网页内容的特殊需求，请按需勾选。
+经过这么一番设置之后，nvda将变得更快，朗读内容变得更加精准，使用愉快！&lt;/p&gt;</description><guid>https://nvdacn.github.io/posts/733/</guid><pubDate>Tue, 13 Mar 2018 13:26:00 GMT</pubDate></item><item><title>NVDA输入法插件怎么样了？</title><link>https://nvdacn.github.io/posts/1003-1/</link><dc:creator>打酱油</dc:creator><description>&lt;div&gt;&lt;p&gt;前两天有人就这么问我：前段时间闹得轰轰烈烈的输入法插件为什么没了反应？
+可能大家都在打鼓，这群人不会真的拿我们的心意去买糖了吧。起码，暂时不敢。下面老老实实向大家汇报下最近的状况：
+从一月初结束捐款之后，拿着整整8000大洋我也是有些手抖，万一丢了咋整。为了避免上次全能翻译的持续拖延情况的再次发生，我们做了仔细的考虑。为了方便起见维权容易，也为了可以给大家一个交代，我拉上开发者海豚，咨询过律师，你定了一份正式的、具有法律效益的合同。为了个人隐私及某些网站的发展，部分内容鬼画符蒙混过了关，但是请大家相信我们。
+合同主体图片下载：链接: https://pan.baidu.com/s/1rahxCle 密码: uzdw
+下面是合同的文字内容：
+                               个人合作协议合同书&lt;/p&gt;
+&lt;p&gt;甲方:刘梦雨&lt;/p&gt;
+&lt;p&gt;乙方:陈敬&lt;/p&gt;
+&lt;p&gt;1.开发项目:NVDA屏幕阅读器输入法朗读插件。
+开发要求:一、插件开发墓地
+自windows8起，微软在自家appstore、开始菜单/开始屏幕、office套装、记事本、edge浏览器等一系列自家产品强制使用tsf框架，使得NVDA屏幕阅读器在这些界面进行中文输入时朗读出现巨大障碍。另外，即使是原有的IME框架也存在一些不够符合国情的现象，本插件将致力于解决上述情况所导致的一系列问题，以期得到更好的使用体验。
+为了应对这些情况，插件开发大体分成如下几方面：
+0、兼容市面上大多数流行输入法
+1、完全支持tsf框架
+2、修复ime框架遗留问题
+3、重新设计输入法朗读选项
+4、增加可提升输入效率的其他设计
+二、开发细节
+此处省略10000+字
+2.开发流程：
+NVDA输入法朗读插件开发流程安排如下：
+开发主管：刘梦宇
+质量监督:陈敬
+开始时间：2018年1月15日
+开发周期：5个月整
+结束时间：2018年6月15日
+框架开发及底层实现：2018年1月15日到2018年4月15日
+小范围公测：2018年4月16日到2018年5月10日
+大范围公测：2018年5月11日到2018年六月15日
+结项日期误差：延误不超过10日
+结项条件：
+1、完成输入法需求文档所列条目；
+2、完成本文档所述流程
+3、没有待修复的已知bug
+4、得到绝对大部分用户好评
+3.合作形式：
+1.陈敬：负责提供开发过程中的，除代码以外的文档资料。
+2.刘梦宇:负责按照上文所述的开发流程以及开发要求文档进行项目开发。
+4.项目结算以及违约：
+1.项目总金额8000人民币
+2.陈敬:需在项目开始一星期内向刘梦雨预先支付百分之二十五，8000/4=2000到开发者刘梦宇作为定金。
+3.若开发者刘梦宇未能按照上述开发流程以及开发文档达到预期目的需返还已经收到的定金2000并无偿开发完成此项目。
+4.在小范围公测开始时一周内支付2000原整
+5.若项目达到预期陈敬应在七个工作日内支付剩余款项。
+6.陈敬应支付款项在有效时间内未能及时支付者按每日加收本金1%罚息处理。
+7.若项目中途因为各种原因导致项目无法进行，愿意申请法院仲裁决定。
+8.若项目提前完成并且达到要求，开发者刘梦宇有权提前索要项目剩余款项。&lt;/p&gt;
+&lt;p&gt;甲方:
+身份证号:&lt;/p&gt;
+&lt;p&gt;乙方:
+身份证号:&lt;/p&gt;
+&lt;pre class="code literal-block"&gt;&lt;span&gt;&lt;/span&gt;                                                       年     月    日
+&lt;/pre&gt;&lt;/div&gt;</description><guid>https://nvdacn.github.io/posts/1003-1/</guid><pubDate>Wed, 07 Feb 2018 03:13:00 GMT</pubDate></item><item><title>祝贺，NVDA中文站换服务器啦！</title><link>https://nvdacn.github.io/posts/10000/</link><dc:creator>打酱油</dc:creator><description>&lt;p&gt;中文站已经波澜不惊地又运行了一个多月，这就是我们所希望的。然而有一件大事还是悄悄地发生了：NVDA中文站从虚拟服务器迁移到了云服务器！大概日理万机的朋友们刚看完开头也是一脸懵，我来解释下有啥区别吧：
+虚拟服务器，一种专门用来运行网站的、且只能运行网站的容器，优势是功能单一稳定，容易架设；
+云服务器，或者我们把他叫做云电脑，又或者叫在线电脑，可以和本地一样操作的电脑，总之一句话就是电脑。区别在哪儿显而易见了，大家可以拿来听歌打游戏聊yy泡小姑凉，俄打住，上面的都是玩笑。nvda中文站的服务器将用来架设nvda中文官网，也将用来架设远程服务器，还有其他能想到想不到的、能改善nvda使用的电脑能做的一切事情。
+看了这么多大家一定很想知道谁让这件事发生的吧：
+友情赞助：白玉、禹涵、晴天
+技术支持及实现：海豚
+替大家谢谢你们！&lt;/p&gt;</description><guid>https://nvdacn.github.io/posts/10000/</guid><pubDate>Wed, 07 Feb 2018 02:40:10 GMT</pubDate></item><item><title>NVDA数学内容朗读辅助软件</title><link>https://nvdacn.github.io/posts/1003/</link><dc:creator>打酱油</dc:creator><description>&lt;p&gt;有鉴于新出的数学内容朗读插件大家的反响强烈，需求众多，应大家的需求，放出nvda内件数学内容朗读所需附注软件，下面是下载地址：
+math player:https://www.dessci.com/en/dl/MathPlayerSetup.exe
+mathtype：http://www.dessci.com/en/dl/MathType-win-en-6.9c.exe&lt;/p&gt;</description><guid>https://nvdacn.github.io/posts/1003/</guid><pubDate>Wed, 07 Feb 2018 02:24:56 GMT</pubDate></item><item><title>NVDA捐款之我见</title><link>https://nvdacn.github.io/posts/1000/</link><dc:creator>打酱油</dc:creator><description>&lt;p&gt;持续了三个月的、轰轰烈烈的捐款活动到今天正式落幕，圆满完成。8000，相对于之前而言，显然这是个巨大的跨越。光是网上众人的捐款数量就翻了一番，其实这说明什么。
+1、毋庸置疑，NVDA的用户更多了。NVDA群的活跃度长期居高不下，咨询的人你来我往，非常具有活力。一方面是NVDA自身的不断迅速完善，另一方面也有着更多的人愿意开始尝试新事物。正如网站的口号一样，改变，从这里开始，越来越多的人在践行“改变”。
+2、越来越多的视障者开始把公益当回事儿。只是丹丹
+看最后的数字毫无意义，只看网站上罗列的名单也不见得能窥见其全貌。许许多多的人在用自己的方法为输入法项目创造更多的机会，学生党没钱没关系，努力发动周围的朋友一起助力；热心的朋友在各大视障者论坛里发帖子，让更多的人看到这个项目；有能力的朋友就直接摸口袋，为项目灌注资金支持。不管你用的是什么方法，做出的贡献都是不可或缺的。
+3、捐款项目的持续性也起到了推动性作用。从14年开始，中文站每年都举行捐款活动。前两年的目标是开发者团队，去年的项目是全能翻译插件，今年的项目就到了输入法。每一年的同一个时间都有人会问起，今年我们做什么？
+4、输入法插件捐款项目具有更高的人气。好多年了，群里就反复有人提起输入法支持的各类问题。在项目启动以前所做的调查也表明，输入法插件的支持率遥遥领先。做大家想做，想大家所想，一直是nvda推广团队的内心渴望，也在想办法践行着，一切似乎都是水到渠成的。
+谢谢大家一直以来的努力，相信在不久的将来我们会用上能让自己满意的插件，让使用NVDA打字不再是一个痛。新年之际，中文站祝愿大家新年快乐，心想事成！&lt;/p&gt;</description><guid>https://nvdacn.github.io/posts/1000/</guid><pubDate>Tue, 02 Jan 2018 06:50:00 GMT</pubDate></item></channel></rss>

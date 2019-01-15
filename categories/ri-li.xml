@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>NVDA中文站 (关于文章 日历)</title><link>https://nvdacn.github.io/</link><description></description><atom:link href="https://nvdacn.github.io/categories/ri-li.xml" rel="self" type="application/rss+xml"></atom:link><language>zh_cn</language><copyright>Contents © 2019 &lt;a href="mailto:dingpengyu06@gmail.com"&gt;nvdacn&lt;/a&gt; </copyright><lastBuildDate>Tue, 15 Jan 2019 05:25:43 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>农历播报插件 1.1</title><link>https://nvdacn.github.io/posts/436/</link><dc:creator>酱油</dc:creator><description>&lt;p&gt;插件名称： 农历播报
+版本： 1.1
+作者： 沉浮
+安装此插件可以让NVDA播报农历日期，并且支持公农历转换。
+快捷键：
+NVDA+F11： 播报农历日期；
+双击 NVDA+F11： 打开公农历转换对话框。
+公农历转换输入格式为“yyyy-m-d”，例如“2016-3-24”。
+&lt;a accesskey="x" href="http://12355939.d.yyupload.com/down/12355939/nvdacn/addons/%E5%86%9C%E5%8E%86%E6%92%AD%E6%8A%A5_1.1.rar"&gt;本地下载1：农历播报插件 1.1&lt;/a&gt;
+&lt;a accesskey="x" href="https://eyun.baidu.com/s/3hsNWDTi"&gt;百度盘备用下载：农历播报插件（提取密码：WBuP）&lt;/a&gt;&lt;/p&gt;</description><category>公历</category><category>农历</category><category>插件</category><category>日历</category><category>日期</category><guid>https://nvdacn.github.io/posts/436/</guid><pubDate>Thu, 24 Mar 2016 14:12:00 GMT</pubDate></item></channel></rss>

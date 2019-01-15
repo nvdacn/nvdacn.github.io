@@ -1,0 +1,465 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>NVDA中文站 (关于文章 win10)</title><link>https://nvdacn.github.io/</link><description></description><atom:link href="https://nvdacn.github.io/categories/win10.xml" rel="self" type="application/rss+xml"></atom:link><language>zh_cn</language><copyright>Contents © 2019 &lt;a href="mailto:dingpengyu06@gmail.com"&gt;nvdacn&lt;/a&gt; </copyright><lastBuildDate>Tue, 15 Jan 2019 05:25:41 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>微信 UWP 插件 V1.51</title><link>https://nvdacn.github.io/posts/WeChatForWin10Addon/</link><dc:creator>酱油</dc:creator><description>&lt;div&gt;&lt;p&gt;感谢沉浮老师为我们带来这款“微信For Win10”插件。有了此插件，我们就可以使用主键盘轻松操作微信，不需要再使用复杂的对象浏览了。插件还增加了消息自动朗读、链接和文件消息识别等功能。具体请看&lt;/p&gt;
+&lt;h4&gt;微信插件v1.51升级日志&lt;/h4&gt;
+
+&lt;p&gt;1、增加 "esc"一键隐藏微信主窗口。按alt+t或任务栏快捷方式可切回。&lt;/p&gt;
+&lt;p&gt;2、增加"f7" 一键打开微信临时目录，方便提取播放的音视频文件。&lt;/p&gt;
+&lt;p&gt;3、增加control+h打开插件帮助文档。&lt;/p&gt;
+&lt;p&gt;4、优化通讯录分组的朗读。&lt;/p&gt;
+&lt;p&gt;5、修复产生报错音效的bug。&lt;/p&gt;
+&lt;p&gt;6、增加对微信主窗口控制，让其处于激活状态时保持最大画，以方便扫码等操作。&lt;/p&gt;
+&lt;h4&gt;微信(uwp)插件使用条件&lt;/h4&gt;
+
+&lt;p&gt;请在win 10 应用商店中搜索"微信"，结果列表中会出现两个结果，第一个是“微信 for windows 10”，第二个是“微信(uwp)”，本插件只支持“微信(uwp)”，不支持“微信 for windows 10”，请不要下错版本。&lt;/p&gt;
+&lt;h4&gt;热键说明&lt;/h4&gt;
+
+&lt;p&gt;上下光标：直接浏览会话列表和消息列表内容。&lt;/p&gt;
+&lt;p&gt;左右光标：在搜索框，会话列表，消息列表和发送消息编辑框之间切换。&lt;/p&gt;
+&lt;p&gt;小键盘加号和减号： 顺序浏览屏幕各项目&lt;/p&gt;
+&lt;p&gt;回车或空格激活当前项目，删除键可直接删除当前项，也可按application键探出操作菜单。&lt;/p&gt;
+&lt;p&gt;f1:发送消息（在回车键失效后可用。.&lt;/p&gt;
+&lt;p&gt;f2：读出当前会话标题&lt;/p&gt;
+&lt;p&gt;f3：切换编辑和浏览模式&lt;/p&gt;
+&lt;p&gt;f4：控制是否自动朗读最新消息&lt;/p&gt;
+&lt;p&gt;f5：连续朗读当前屏消息&lt;/p&gt;
+&lt;p&gt;f7：打开微信临时目录&lt;/p&gt;
+&lt;p&gt;f8：读表情消息&lt;/p&gt;
+&lt;p&gt;control+h：打开帮助文档&lt;/p&gt;
+&lt;p&gt;control+g：打开剪切板内链接&lt;/p&gt;
+&lt;p&gt;&lt;a accesskey="x" href="http://www.nvdacn.com/189.php/3MnIjubayqqq.nvda-addon"&gt;下载 微信 UWP 插件 v1.51&lt;/a&gt;
+&lt;a accesskey="x" href="http://www.nvdacn.com/189.php/JfIFzmb2Inuq.mp3"&gt;下载 微信 UWP 插件演示&lt;/a&gt;
+&lt;a accesskey="x" href="https://www.microsoft.com/store/productId/9NRJ2W1GNL09"&gt;下载 微信(UWP)&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description><category>win10</category><category>微信</category><category>插件</category><guid>https://nvdacn.github.io/posts/WeChatForWin10Addon/</guid><pubDate>Mon, 18 Sep 2017 09:49:00 GMT</pubDate></item><item><title>Windows10使用技巧</title><link>https://nvdacn.github.io/posts/350/</link><dc:creator>酱油</dc:creator><description>&lt;div&gt;&lt;p&gt;Windows10在2015年7月29号正式发布RTM版，带来了更高校的运行效率、更智慧的语音助手小娜、开始菜单回归等新特性。笔者非常喜欢这款操作系统。
+但系统并不适合所有人，举例来说，尽管开始菜单回归了，但并不是传统意义上的开始菜单。资源管理器原有的菜单栏也改成选项卡的形式了。这些改变可能需要大家去适应。
+上面简单的介绍了一点Win10的特性，下面就来具体介绍一些适合我们读屏用户的优化方案。&lt;/p&gt;
+&lt;h4&gt;恢复简体中文美式键盘&lt;/h4&gt;
+
+&lt;p&gt;从Win8开始，英文输入法键盘和中文输入法键盘就分开了，需要按Win+空格切换不同语言的输入法，如果你不适应新的切换习惯，导入下面的注册表，找回按CTRL+Shift切换中英文输入法吧。
+&lt;a href="http://mywind.sinaapp.com/skydrive/1805BB4AF3C3BD76!4627/Win10%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87%E7%BE%8E%E5%BC%8F%E9%94%AE%E7%9B%98.reg"&gt;下载 Win10 简体中文美式键盘&lt;/a&gt;
+&lt;/p&gt;&lt;h4&gt;隐藏通知区域的输入法指示器&lt;/h4&gt;
+若要隐藏通知区域的输入法指示器图标，请按Win+I打开设置，依次进入“时间和语言 -&amp;gt; 区域和语言”，然后tab浏览到“其他日期、时间和区域设置 链接”然后按回车键打开“时钟、语言和区域”设置窗口，
+然后tab键浏览到“更换输入法 链接”按回车键打开“语言”设置窗口，
+按tab浏览到“高级设置 链接”，按回车键打开“高级设置”窗口。
+按tab键找到并选中“使用桌面语言栏(可用时) 复选框”，然后按tab浏览到“单击打开语言栏选项 链接”按回车键打开“文本服务和输入语言”设置窗口，
+选中设置窗口中的“隐藏(H) 单选按钮”，取消选中“在任务栏中显示其他语言栏图标(I) 复选框”，然后点击确定按钮，这样就把输入法指示器图标隐藏了。
+&lt;h4&gt;删除此电脑置顶文件夹&lt;/h4&gt;
+微软从Win7开始引入了库的概念，有意让用户淡化文件系统的概念，而按分类来管理文件，但并不是每个人都喜欢这种方式，因此，此电脑中的这些置顶文件夹也就失去了意义。如果你打开此电脑只想看到盘符和连接的设备，不想看到这些文件夹，导入下面的注册表即可。
+&lt;a href="http://mywind.sinaapp.com/skydrive/1805BB4AF3C3BD76!4628/%E5%88%A0%E9%99%A4%E6%AD%A4%E7%94%B5%E8%84%91%E7%BD%AE%E9%A1%B6%E6%96%87%E4%BB%B6%E5%A4%B9.reg"&gt;删除此电脑置顶文件夹.reg&lt;/a&gt;
+&lt;h4&gt;卸载Win10内置应用&lt;/h4&gt;
+Win10自带了一些通用应用，NVDA对于通用应用的支持没有桌面应用支持的那么好，也许你也不喜欢，按照下面的方法就可以卸载他们。
+在开始菜单所有应用中找到Windows PowerShell 文件夹，展开Windows PowerShell文件夹然后按下光标找到Windows PowerShell，按右键以管理员身份运行Windows PowerShell。
+复制下面你要删除的应用名字下一行的文字，粘贴到Windows PowerShell中按回车，即可删除他们。
+OneNote：
+Get-AppxPackage &lt;em&gt;OneNote&lt;/em&gt; | Remove-AppxPackage
+3D：
+Get-AppxPackage &lt;em&gt;3d&lt;/em&gt; | Remove-AppxPackage
+相机：
+Get-AppxPackage &lt;em&gt;camera&lt;/em&gt; | Remove-AppxPackage
+邮件和日历：
+Get-AppxPackage &lt;em&gt;communi&lt;/em&gt; | Remove-AppxPackage
+新闻订阅：
+Get-AppxPackage &lt;em&gt;bing&lt;/em&gt; | Remove-AppxPackage
+Groove音乐、电影与电视：
+Get-AppxPackage &lt;em&gt;zune&lt;/em&gt; | Remove-AppxPackage
+人脉：
+Get-AppxPackage &lt;em&gt;people&lt;/em&gt; | Remove-AppxPackage
+手机伴侣（Phone Companion）：
+Get-AppxPackage &lt;em&gt;phone&lt;/em&gt; | Remove-AppxPackage
+照片：
+Get-AppxPackage &lt;em&gt;photo&lt;/em&gt; | Remove-AppxPackage
+纸牌游戏：
+Get-AppxPackage &lt;em&gt;solit&lt;/em&gt; | Remove-AppxPackage
+录音机：
+Get-AppxPackage &lt;em&gt;soundrec&lt;/em&gt; | Remove-AppxPackage
+Xbox：
+Get-AppxPackage &lt;em&gt;xbox&lt;/em&gt; | Remove-AppxPackage
+&lt;h4&gt;显示或隐藏Win10更新&lt;/h4&gt;
+
+&lt;p&gt;Win10会自动更新一些Windows Update中能找到的设备驱动，但有些驱动可能会引起一些问题，下载下面的文件就可以手动选择隐藏这些更新。
+&lt;a href="http://mywind.sinaapp.com/skydrive/1805BB4AF3C3BD76!4629/%E6%98%BE%E7%A4%BA%E6%88%96%E9%9A%90%E8%97%8FWindows10%E6%9B%B4%E6%96%B0.diagcab"&gt;下载显示或隐藏Win10更新疑难解答&lt;/a&gt;&lt;/p&gt;
+&lt;h4&gt;修复Win10无法启动设置&lt;/h4&gt;
+
+&lt;p&gt;新系统的发布往往会带来一些意想不到的Bug，Win10也出现了一些让人哭笑不得的Bug，无法启动设置就是其中之一，如果你遇到了这样的问题，不妨尝试下下面的疑难解答程序。
+&lt;a href="http://mywind.sinaapp.com/skydrive/1805BB4AF3C3BD76!4630/Win10%E6%97%A0%E6%B3%95%E5%90%AF%E5%8A%A8%E8%AE%BE%E7%BD%AE%E4%BF%AE%E5%A4%8D.diagcab"&gt;下载修复Win10无法启动设置疑难解答&lt;/a&gt;&lt;/p&gt;
+&lt;h4&gt;桌面创建特殊IE图标&lt;/h4&gt;
+
+&lt;p&gt;Win10带来了全新的Edge浏览器，微软特意的将 Internet Explorer 放入了 Windows附件文件夹中，如果你是IE的忠实用户，希望在桌面上创建带有右键功能的特殊IE图标，可以导入下面提供的注册表。
+&lt;a href="http://mywind.sinaapp.com/skydrive/1805BB4AF3C3BD76!4631/%E7%BB%99%E6%A1%8C%E9%9D%A2%E5%88%9B%E5%BB%BAIE%E5%9B%BE%E6%A0%87windows7%E4%BB%A5%E4%B8%8A%E9%83%BD%E5%8F%AF%E4%BB%A5%E4%BD%BF%E7%94%A8%E5%86%85%E9%99%84%E8%AF%B4%E6%98%8E.rar"&gt;下载桌面创建特殊IE图标&lt;/a&gt;&lt;/p&gt;
+&lt;h4&gt;防止Win10自动转换为平板模式&lt;/h4&gt;
+
+&lt;p&gt;笔者层遇到过这样一种问题，按Win+M无法返回桌面，偶然发现这是因为Win10转换到了平板模式，对于非平板用户，显然不需要这样的功能，而且这个功能还会造成我遇到过的这种问题。我们可以通过下面的设置避免Win10自动转换为平板模式。
+按Win+I打开设置，依次进入系统 -&amp;gt; 平板电脑模式，按tab键会浏览到一些组合框，
+将“当我登录时”设置为 “转到桌面”，
+将“当该设备自动将平板电脑模式切换为开或关时” 设置为“不询问我，不进行切换”。
+这样就不用担心你的电脑自动切换成平板模式了。&lt;/p&gt;
+&lt;h4&gt;在登录窗口自动启用讲述人&lt;/h4&gt;
+
+&lt;p&gt;如果你担心NVDA的朗读安全桌面服务进程会造成系统不稳定，那么你可以利用讲述人来朗读登陆窗口。具体设置如下：
+按Win+U打开轻松使用设置中心，按tab键浏览到“更改登录设置”并进入，
+在“更改登陆设置”窗口中按tab键浏览到“登录时 朗读屏幕内容(讲述人)”复选框，将其选中，这样在开机进入到登陆画面时，讲述人就会自动启动为你朗读登陆窗口了。&lt;/p&gt;
+&lt;h4&gt;开机自动登录Win10&lt;/h4&gt;
+
+&lt;p&gt;如果你是用微软账户登陆的windows10，每次开机就必须输入开机密码，不想输入开机密码怎么办？windows10 现在可以免密码自动登陆了。设置方法如下：
+按下Win+R快捷键，打开运行对话框，
+在运行对话框中输入Control Userpasswords2，按下回车键，打开“用户账户”窗口
+在打开的用户账户窗口中，取消选中“要使用本计算机，用户必须输入用户名和密码”复选框，然后点击应用按钮，（注意一定要先这么做，如果直接点击确定而不点击应用的话，有可能自动登陆设置失败。）
+在之后弹出的窗口中输入你的用户名与微软账户密码，最后点击确定保存退出。
+重新启动电脑后，下次开机就可以免密码自动登录了，但这样进入桌面的速度会稍微慢一些，具体根据自己的需要设置吧。&lt;/p&gt;
+&lt;h4&gt;关闭快速启动&lt;/h4&gt;
+
+&lt;p&gt;一些比较老的电脑或者硬件存在问题的电脑如果启用windows10的快速启动功能，可能会造成无法关机的情况，如果你遇到了这样的问题，按照下面的方法操作可以关闭快速启动功能。
+按Win+X打开高级用户功能菜单，进入“电源选项”，
+打开“电源选项”窗口后tab键浏览到“选择电源按钮的功能”进入，
+然后点击“更改当前不可用的设置”。按tab找到“启用快速启动(推荐)”复选框，将其取消选中，
+然后点“保存修改”按钮。这样快速启动功能就关闭了。&lt;/p&gt;
+&lt;h4&gt;启用开机音乐&lt;/h4&gt;
+
+&lt;p&gt;如果你设置了开机自动登陆，对于我们读屏用户来说，就有必要启用开机音乐了。
+按Win+B定位到通知区域，找到扬声器图标，按Apps键弹出菜单，执行“声音”菜单，
+打开“声音”对话框后，按tab浏览到“播放 Windows 启动声音(P)”，将这个复选框选中，然后点击“确定”按钮，下次开机就能听到开机音乐了。&lt;/p&gt;
+&lt;h4&gt;Windows10快捷键&lt;/h4&gt;
+
+&lt;p&gt;Win + A：打开通知中心&lt;/p&gt;
+&lt;p&gt;Win + B：将焦点定位到通知区域工具栏&lt;/p&gt;
+&lt;p&gt;Win + C：开始与Cortana对话&lt;/p&gt;
+&lt;p&gt;Win + D：最小化所有窗口，再次按下还原所有窗口&lt;/p&gt;
+&lt;p&gt;Win + E：打开资源管理器&lt;/p&gt;
+&lt;p&gt;Win + G：打开XBox游戏录制工具栏&lt;/p&gt;
+&lt;p&gt;Win + H：激活应用分享功能&lt;/p&gt;
+&lt;p&gt;Win + I：打开设置&lt;/p&gt;
+&lt;p&gt;\Win + K：激活无线显示器连接或音频设备连接&lt;/p&gt;
+&lt;p&gt;Win + L：锁定屏幕&lt;/p&gt;
+&lt;p&gt;Win + M：返回桌面&lt;/p&gt;
+&lt;p&gt;Win + P：打开多屏显示切换&lt;/p&gt;
+&lt;p&gt;Win + Q：打开搜索/Cortana&lt;/p&gt;
+&lt;p&gt;Win + R：打开运行对话框&lt;/p&gt;
+&lt;p&gt;Win + S：打开搜索/Cortana&lt;/p&gt;
+&lt;p&gt;Win + T：将焦点定位到任务栏&lt;/p&gt;
+&lt;p&gt;Win + U：打开轻松使用设置中心&lt;/p&gt;
+&lt;p&gt;Win + X：弹出高级用户功能菜单&lt;/p&gt;
+&lt;p&gt;Win + 上箭头：桌面模式最大化当前窗口，平板模式向上移动应用窗口&lt;/p&gt;
+&lt;p&gt;Win + 下箭头：桌面模式最小化当前窗口，平板模式向下移动应用窗口&lt;/p&gt;
+&lt;p&gt;Win + 左箭头：桌面模式将窗口最大化停靠到屏幕左边缘，平板模式向左移动应用窗口&lt;/p&gt;
+&lt;p&gt;Win + 右箭头：桌面模式将窗口最大化停靠到屏幕右边缘，平板模式向右移动应用窗口&lt;/p&gt;
+&lt;p&gt;CTRL+Win + 回车：启动讲述人(1703)&lt;/p&gt;
+&lt;p&gt;Win + =：启动放大镜&lt;/p&gt;
+&lt;p&gt;Win + 1到9：打开任务栏上对应位置固定的程序&lt;/p&gt;
+&lt;p&gt;Win + Tab：激活任务试图&lt;/p&gt;
+&lt;p&gt;Win + CTRL加D：新建虚拟桌面&lt;/p&gt;
+&lt;p&gt;Win + CTRL加F4：关闭虚拟桌面&lt;/p&gt;
+&lt;p&gt;Win + 左右箭头：切换虚拟桌面&lt;/p&gt;
+&lt;p&gt;Win + Shift + 左右箭头：将应用从一个显示屏移动到另一个显示屏&lt;/p&gt;
+&lt;h4&gt;windows 10 运行命令大全&lt;/h4&gt;
+
+&lt;p&gt;关于Windows winver 
+添加设备 devicepairingwizard 
+添加硬件 hdwwiz 
+用户账户 netplwiz 
+授权管理器 azman（Win7） 
+备份和还原 sdclt 
+Bluetooth文件传送 fsquirt 
+计算器 calc 
+证书 certmgr（Win7） 
+性能选项 systempropertiesperformance 
+数据执行保护 systempropertiesdataexecutionprevention 
+打印机用户界面 printui 
+字符映射表 charmap 
+ClearType文本调谐器 cttune 
+颜色管理 colorcpl 
+命令提示符 cmd 
+组件服务 comexp（Win7） 
+组件服务 dcomcnfg 
+计算机管理 compmgmt 
+计算机管理 compmgmtlauncher 
+连接到网络投影仪 netproj（Win7） 
+显示切换 displayswitch 
+控制面板 control 
+创建共享文件夹向导 shrpubw 
+创建系统修复光盘 recdisc 
+存储的用户名和密码 credwiz 
+默认位置 locationnotifications（Win7） 
+设备管理器 devmgmt.msc 
+Microsoft 支持诊断工具 msdt 
+数字化校准工具 tabcal 
+DirectX 诊断工具 dxdiag 
+磁盘清理 cleanmgr 
+优化驱动器 dfrgui 
+磁盘管理 diskmgmt.msc 
+显示 dpiscaling 
+显示颜色校准 dccw 
+受保护的内容迁移 dpapimig 
+驱动程序验证程序管理器 verifier 
+轻松使用设置中心 utilman 
+加密文件系统 rekeywiz 
+事件查看器 eventvwr 
+传真封面编辑器 fxscover 
+文件签名验证 sigverif 
+Windows 入门 gettingstarted（Win7） 
+IExpress 向导 iexpress 
+导入 Windows 联系人 wabmig 
+Microsoft iSCSI iscsicpl 
+安装或卸载显示语言 lpksetup 
+本地组策略编辑器 gpedit.msc 
+本地安全策略 secpol.msc 
+本地用户和组 lusrmgr.msc 
+放大镜 magnify 
+Microsoft Windows 恶意软件删除工具 mrt 
+数学输入面板 mip 
+MMC管理控制台 mmc 
+NAP 客户端配置 napclcfg（Win7） 
+讲述人设置 narrator 
+扫描仪 wiaacmgr 
+记事本 notepad 
+ODBC 数据源管理程序 odbcad32 
+屏幕键盘 osk 
+画图 mspaint 
+性能监视器 perfmon 
+电话括号程序 dialer 
+演示设置 presentationsettings 
+打印管理 printmanagement.msc 
+打印机迁移 printbrmui 
+专用字符编辑程序 eudcedit 
+步骤记录器 psr 
+注册表编辑器 regedit 
+远程桌面连接 mstsc 
+资源监视器 resmon 
+组策略结果集 rsop 
+保护 Windows 账户数据库的安全 syskey 
+服务 services.msc 
+设置程序访问此计算机的默认值 computerdefaults 
+共享文件夹 fsmgmt.msc 
+截图工具 snippingtool 
+录音机 soundrecorder（Win7） 
+SQL Server 客户端网络实用工具 cliconfg 
+便签 stikynot 
+同步中心 mobsync 
+系统配置 msconfig 
+系统信息 msinfo32 
+系统属性-高级 systempropertiesadvanced 
+系统属性-计算机名 systempropertiescomputername 
+系统属性-硬件 systempropertieshardware 
+系统属性-远程 systempropertiesremote 
+系统属性-系统保护 systempropertiesprotection 
+系统还原 rstrui 
+任务管理器 taskmgr 
+任务计划程序 taskschd.msc 
+受信任的平台(TPM)管理 tpm.msc 
+用户账户控制设置 useraccountcontrolsettings 
+音量合成器 sndvol 
+Windows 激活 slui 
+联系人 wab 
+Windows 光盘映像刻录机 isoburn 
+Windows 资源管理器 explorer 
+Windows 传真和扫描 wfs 
+Windows 功能 optionalfeatures 
+高级安全 Windows 防火墙 wf.msc 
+Windows 帮助和支持 winhlp32 
+Windows 日记本 journal 
+Windows Media Player wmplayer 
+Windows 内存诊断 mdsched 
+Windows 移动中心 mblctr 
+Windows Powershell powershell 
+Windows PowerShell ISE powershell_ise 
+Windows 远程协助 msra 
+Windows 脚本宿主设置 wscript 
+Windows Update wuapp（Win7） 
+Windows 更新独立安装程序 wusa 
+WMI 管理 wmimgmt.msc 
+WMI 测试器 wbemtest 
+写字板 write 
+XPS 查看器 xpsrchvw 
+屏幕分辨率 desk.cpl 
+鼠标属性 main.cpl 
+安全性与维护 wscui.cpl 
+网络连接 ncpa.cpl 
+电源选项 powercfg.cpl 
+卸载或更改程序 appwiz.cpl 
+系统属性 sysdm.cpl 
+Windows 防火墙 firewall.cpl &lt;/p&gt;&lt;/div&gt;</description><category>win10</category><category>优化</category><category>快捷键</category><category>系统</category><category>自定义</category><guid>https://nvdacn.github.io/posts/350/</guid><pubDate>Sat, 24 Dec 2016 16:01:00 GMT</pubDate></item><item><title>Windows 官方镜像下载 | Windows 10 V1709</title><link>https://nvdacn.github.io/posts/winiso/</link><dc:creator>酱油</dc:creator><description>&lt;div&gt;&lt;p&gt;请点击下面的P2P下载地址，使用迅雷或电驴等支持ed2k协议的下载工具下载。&lt;/p&gt;
+&lt;h4&gt;Windows10 V1709&lt;/h4&gt;
+
+&lt;h6&gt;Windows10 V1709 64位&lt;/h6&gt;
+
+&lt;p&gt;文件名
+cn_windows_10_multi-edition_version_1709_updated_sept_2017_x64_dvd_100090804.iso&lt;/p&gt;
+&lt;p&gt;SHA1
+9306895149F9328CDB77FF28368F83EE984BDC30&lt;/p&gt;
+&lt;p&gt;文件大小
+4.42GB&lt;/p&gt;
+&lt;p&gt;发布时间
+2017-10-18&lt;/p&gt;
+&lt;p&gt;下载地址：
+&lt;a href="ed2k://%7Cfile%7Ccn_windows_10_multi-edition_version_1709_updated_sept_2017_x64_dvd_100090804.iso%7C4740610048%7C37051C54894776826823DAEBDD03F1DC%7C/"&gt;下载 Windows 10 V1709 64位&lt;/a&gt;&lt;/p&gt;
+&lt;h6&gt;Windows10 V1709 32位&lt;/h6&gt;
+
+&lt;p&gt;文件名
+cn_windows_10_multi-edition_version_1709_updated_sept_2017_x86_dvd_100090805.iso&lt;/p&gt;
+&lt;p&gt;SHA1
+00D8D32CBF5D1CA78055ECCFC258691B126BE3D5&lt;/p&gt;
+&lt;p&gt;文件大小
+3.31GB&lt;/p&gt;
+&lt;p&gt;发布时间
+2017-10-18&lt;/p&gt;
+&lt;p&gt;下载地址：
+&lt;a href="ed2k://%7Cfile%7Ccn_windows_10_multi-edition_version_1709_updated_sept_2017_x86_dvd_100090805.iso%7C3551899648%7C6C24A796B66CDA6D909508A16C74B406%7C/"&gt;下载 Windows10 V1709 32位&lt;/a&gt;&lt;/p&gt;
+&lt;h4&gt;Windows 10 RS2 创意者更新六月正式版&lt;/h4&gt;
+
+&lt;h6&gt;【Windows 10 RS2 创意者更新六月正式版 官方简体中文版 专业版+家庭版(64位)】&lt;/h6&gt;
+
+&lt;p&gt;Windows 10 (Multiple Editions), Version 1703 (Updated June 2017) (x64) - DVD (Chinese-Simplified)&lt;/p&gt;
+&lt;p&gt;文件名：cn_windows_10_multiple_editions_version_1703_updated_june_2017_x64_dvd_10724850.iso&lt;/p&gt;
+&lt;p&gt;SHA1：394E1F9C8323D3803F8DB5FCD1673CE40F8EAA84&lt;/p&gt;
+&lt;p&gt;文件大小：5.35 GB&lt;/p&gt;
+&lt;p&gt;发布时间：2017/6/22&lt;/p&gt;
+&lt;p&gt;&lt;a accesskey="x" href="ed2k://%7Cfile%7Ccn_windows_10_multiple_editions_version_1703_updated_june_2017_x64_dvd_10724850.iso%7C5741144064%7C7717C389428734009E0350A1BB8F2508%7C/"&gt;下载 Windows 10 RS2 创意者更新六月正式版 官方简体中文版 专业版+家庭版(64位&lt;/a&gt;&lt;/p&gt;
+&lt;h6&gt;【Windows 10 RS2 创意者更新六月正式版 官方简体中文版 专业版+家庭版(32位)】&lt;/h6&gt;
+
+&lt;p&gt;Windows 10 (Multiple Editions), Version 1703 (Updated June 2017) (x86) - DVD (Chinese-Simplified)&lt;/p&gt;
+&lt;p&gt;文件名： cn_windows_10_multiple_editions_version_1703_updated_june_2017_x86_dvd_10725413.iso&lt;/p&gt;
+&lt;p&gt;SHA1：81780A6539B2ECA0197BC4C4C0FD6A042AF50CB3&lt;/p&gt;
+&lt;p&gt;文件大小：4.05 GB&lt;/p&gt;
+&lt;p&gt;发布时间：2017/6/22&lt;/p&gt;
+&lt;p&gt;&lt;a accesskey="x" href="ed2k://%7Cfile%7Ccn_windows_10_multiple_editions_version_1703_updated_june_2017_x86_dvd_10725413.iso%7C4344467456%7CB3A695DA4BB0025696F168745E372BBE%7C/"&gt;下载 Windows 10 RS2 创意者更新六月正式版 官方简体中文版 专业版+家庭版(32位)&lt;/a&gt;&lt;/p&gt;
+&lt;h6&gt;【Windows 10 RS2 创意者更新六月正式版 官方简体中文版 企业版(64位)】&lt;/h6&gt;
+
+&lt;p&gt;Windows 10 Enterprise, Version 1703 (Updated June 2017) (x64) - DVD (Chinese-Simplified)&lt;/p&gt;
+&lt;p&gt;文件名：cn_windows_10_enterprise_version_1703_updated_june_2017_x64_dvd_10720588.iso&lt;/p&gt;
+&lt;p&gt;SHA1：3FFA76407A36260027BB1D56928BF3E36B2E295F&lt;/p&gt;
+&lt;p&gt;文件大小：4.62 GB&lt;/p&gt;
+&lt;p&gt;发布时间：2017/6/22&lt;/p&gt;
+&lt;p&gt;&lt;a accesskey="x" href="ed2k://%7Cfile%7Ccn_windows_10_enterprise_version_1703_updated_june_2017_x64_dvd_10720588.iso%7C4959832064%7C1BE4CE1BF03E20D088AD79231B133478%7C/"&gt;下载 Windows 10 RS2 创意者更新六月正式版 官方简体中文版 企业版(64位)&lt;/a&gt;&lt;/p&gt;
+&lt;h6&gt;【Windows 10 RS2 创意者更新六月正式版 官方简体中文版 企业版(32位)】&lt;/h6&gt;
+
+&lt;p&gt;Windows 10 Enterprise, Version 1703 (Updated June 2017) (x86) - DVD (Chinese-Simplified)&lt;/p&gt;
+&lt;p&gt;文件名： cn_windows_10_enterprise_version_1703_updated_june_2017_x86_dvd_10721462.iso&lt;/p&gt;
+&lt;p&gt;SHA1：AB5EDAFC0D34EBE8789BF26D93B6C6031EC2C48D&lt;/p&gt;
+&lt;p&gt;文件大小：3.48 GB&lt;/p&gt;
+&lt;p&gt;发布时间：2017/6/22&lt;/p&gt;
+&lt;p&gt;&lt;a accesskey="x" href="ed2k://%7Cfile%7Ccn_windows_10_enterprise_version_1703_updated_june_2017_x86_dvd_10721462.iso%7C3737954304%7C9DF7203BD15FF86CD381D9C998462C78%7C/"&gt;下载 Windows 10 RS2 创意者更新六月正式版 官方简体中文版 企业版(32位)&lt;/a&gt;&lt;/p&gt;
+&lt;h6&gt;【Windows 10 RS2 创意者更新六月正式版 官方简体中文版 教育版(64位)】&lt;/h6&gt;
+
+&lt;p&gt;Windows 10 Education, Version 1703 (Updated June 2017) (x64) - DVD (Chinese-Simplified)&lt;/p&gt;
+&lt;p&gt;文件名：cn_windows_10_education_version_1703_updated_june_2017_x64_dvd_10720997.iso&lt;/p&gt;
+&lt;p&gt;SHA1：92A5991581C3759B5F1751FCA96E028927C84AAC&lt;/p&gt;
+&lt;p&gt;文件大小：4.6 GB&lt;/p&gt;
+&lt;p&gt;发布时间：2017/6/22&lt;/p&gt;
+&lt;p&gt;&lt;a accesskey="x" href="ed2k://%7Cfile%7Ccn_windows_10_education_version_1703_updated_june_2017_x64_dvd_10720997.iso%7C4943917056%7CEC41C7986E39B42C028B680A0F139278%7C/"&gt;下载 Windows 10 RS2 创意者更新六月正式版 官方简体中文版 教育版(64位)&lt;/a&gt;&lt;/p&gt;
+&lt;h6&gt;【Windows 10 RS2 创意者更新六月正式版 官方简体中文版 教育版(32位)】&lt;/h6&gt;
+
+&lt;p&gt;Windows 10 Education, Version 1703 (Updated June 2017) (x86) - DVD (Chinese-Simplified)&lt;/p&gt;
+&lt;p&gt;文件名：cn_windows_10_education_version_1703_updated_june_2017_x86_dvd_10721047.iso&lt;/p&gt;
+&lt;p&gt;SHA1：BEBE475D4E3F2F80C8E3EAE050298C9B3A6A7591&lt;/p&gt;
+&lt;p&gt;文件大小：3.48 GB&lt;/p&gt;
+&lt;p&gt;发布时间：2017/6/22&lt;/p&gt;
+&lt;p&gt;&lt;a accesskey="x" href="ed2k://%7Cfile%7Ccn_windows_10_education_version_1703_updated_june_2017_x86_dvd_10721047.iso%7C3734099968%7C69030CC7AC346DE4C3E9DE2526B213BE%7C/"&gt;下载 Windows 10 RS2 创意者更新六月正式版 官方简体中文版 教育版(32位)&lt;/a&gt;&lt;/p&gt;
+&lt;h6&gt;【Windows 10 RS2 创意者更新正式版 官方多国语言包 适用六月更新及后续更新】&lt;/h6&gt;
+
+&lt;p&gt;Windows 10 Language Pack, Version 1703 (Update June 2017) (x86, x64) - DVD (Multiple Languages) &lt;/p&gt;
+&lt;p&gt;文件名：mu_windows_10_language_pack_version_1703_update_June_2017_x86_x64_dvd_10204769.iso&lt;/p&gt;
+&lt;p&gt;SHA1：38D6C794CCCA5AF1D88B18F66EAEC22AF5211101&lt;/p&gt;
+&lt;p&gt;文件大小：4.24 GB（4346 MB）&lt;/p&gt;
+&lt;p&gt;发布时间：2017/6/22&lt;/p&gt;
+&lt;p&gt;&lt;a accesskey="x" href="ed2k://%7Cfile%7Cmu_windows_10_language_pack_version_1703_update_June_2017_x86_x64_dvd_10204769.iso%7C4557178880%7C457A0C689AF6E96D95F45FF939461CA4%7C/"&gt;下载 Windows 10 RS2 创意者更新正式版 官方多国语言包 适用六月更新及后续更新&lt;/a&gt;&lt;/p&gt;
+&lt;h6&gt;【Windows 10 企业版 2016 LTSB 官方简体中文版(32位)】&lt;/h6&gt;
+
+&lt;p&gt;Windows 10 Enterprise 2016 LTSB (x86) - DVD (Chinese-Simplified)&lt;/p&gt;
+&lt;p&gt;文件名：cn_windows_10_enterprise_2016_ltsb_x86_dvd_9057089.iso&lt;/p&gt;
+&lt;p&gt;SHA1：0422052F25C9C8DF983F3B287F725860AAB907CF&lt;/p&gt;
+&lt;p&gt;文件大小：2.62 GB (2817034240 字节)&lt;/p&gt;
+&lt;p&gt;发布时间：2016/8/11&lt;/p&gt;
+&lt;p&gt;&lt;a accesskey="x" href="ed2k://%7Cfile%7Ccn_windows_10_enterprise_2016_ltsb_x86_dvd_9057089.iso%7C2817034240%7C67C3865D03E765BDD4845BA2CB7649F8%7C/"&gt;下载 Windows 10 企业版 2016 LTSB 官方简体中文版(32位)&lt;/a&gt;&lt;/p&gt;
+&lt;h6&gt;【Windows 10 企业版 2016 LTSB 官方简体中文版(64位)】&lt;/h6&gt;
+
+&lt;p&gt;Windows 10 Enterprise 2016 LTSB (x64) - DVD (Chinese-Simplified)&lt;/p&gt;
+&lt;p&gt;文件名：cn_windows_10_enterprise_2016_ltsb_x64_dvd_9060409.iso&lt;/p&gt;
+&lt;p&gt;SHA1：9E405E950890D2A196565BCA35E152F9CFAD296D&lt;/p&gt;
+&lt;p&gt;文件大小：3.55 GB (3821895680 字节)&lt;/p&gt;
+&lt;p&gt;发布时间：2016/8/11&lt;/p&gt;
+&lt;p&gt;&lt;a accesskey="x" href="ed2k://%7Cfile%7Ccn_windows_10_enterprise_2016_ltsb_x64_dvd_9060409.iso%7C3821895680%7CFF17FF2D5919E3A560151BBC11C399D1%7C/"&gt;下载 Windows 10 企业版 2016 LTSB 官方简体中文版(64位)&lt;/a&gt;&lt;/p&gt;
+&lt;h4&gt;Windows 10 周年更新 Version1607&lt;/h4&gt;
+
+&lt;h6&gt;【Windows 10周年更新版64位简体中文家庭/专业版】&lt;/h6&gt;
+
+&lt;p&gt;文件名：cn_windows_10_multiple_editions_version_1607_updated_jul_2016_x64_dvd_9056935.iso&lt;/p&gt;
+&lt;p&gt;SHA1：A2DDAA7BE3BB73FD87C29D6EF8E1EDF4C764DCD9&lt;/p&gt;
+&lt;p&gt;发布  时间：2016-8-2&lt;/p&gt;
+&lt;p&gt;文件大小：4.05GB&lt;/p&gt;
+&lt;p&gt;&lt;a accesskey="x" href="ed2k://%7Cfile%7Ccn_windows_10_multiple_editions_version_1607_updated_jul_2016_x64_dvd_9056935.iso%7C4347183104%7C35EA5DB0F3BB714F5CE0740FB89D82D1%7C/"&gt;下载 Windows 10周年更新版64位简体中文家庭/专业版&lt;/a&gt;&lt;/p&gt;
+&lt;h6&gt;【Windows 10周年更新版32位简体中文家庭/专业版】&lt;/h6&gt;
+
+&lt;p&gt;文件名：cn_windows_10_multiple_editions_version_1607_updated_jul_2016_x86_dvd_9060050.iso&lt;/p&gt;
+&lt;p&gt;SH1：EAF7394A25A69E94AD2D3D1D9FBC0007D1DFF720&lt;/p&gt;
+&lt;p&gt;发布  时间：2016-8-2&lt;/p&gt;
+&lt;p&gt;文件大小：3.05GB&lt;/p&gt;
+&lt;p&gt;&lt;a accesskey="x" href="ed2k://%7Cfile%7Ccn_windows_10_multiple_editions_version_1607_updated_jul_2016_x86_dvd_9060050.iso%7C3275581440%7C006F76229DB61ADA1D8E49DD4A6A0A5D%7C/"&gt;下载 Windows 10周年更新版32位简体中文家庭/专业版&lt;/a&gt;&lt;/p&gt;
+&lt;h6&gt;【Windows 10周年更新版64位简体中文企业版】&lt;/h6&gt;
+
+&lt;p&gt;文件名：cn_windows_10_enterprise_version_1607_updated_jul_2016_x64_dvd_9057083.iso&lt;/p&gt;
+&lt;p&gt;SHA1：1D287AB1F79BCA7166A49ACB27A81B43BE7D75DD&lt;/p&gt;
+&lt;p&gt;发布  时间：2016-8-2&lt;/p&gt;
+&lt;p&gt;文件大小：3.86GB&amp;gt;&lt;/p&gt;
+&lt;p&gt;&lt;a accesskey="x" href="ed2k://%7Cfile%7Ccn_windows_10_enterprise_version_1607_updated_jul_2016_x64_dvd_9057083.iso%7C4149981184%7CEFCB9D522DAA0C6A7BF3A5464C65DCBC%7C/"&gt;下载 Windows 10周年更新版64位简体中文企业版&lt;/a&gt;&lt;/p&gt;
+&lt;h6&gt;【Windows 10周年更新版32位简体中文企业版】&lt;/h6&gt;
+
+&lt;p&gt;文件名：cn_windows_10_enterprise_version_1607_updated_jul_2016_x86_dvd_9059597.iso&lt;/p&gt;
+&lt;p&gt;SHA1：C13CA613DD308441F554935912B426A7424AE052&lt;/p&gt;
+&lt;p&gt;发布  时间：2016-8-2&lt;/p&gt;
+&lt;p&gt;文件大小：2.89GB&lt;/p&gt;
+&lt;p&gt;&lt;a accesskey="x" href="ed2k://%7Cfile%7Ccn_windows_10_enterprise_version_1607_updated_jul_2016_x86_dvd_9059597.iso%7C3100624896%7C0E1580E308D316A8648B0BF58D5CDEE2%7C/"&gt;Windows 10周年更新版32位简体中文企业版&lt;/a&gt;&lt;/p&gt;
+&lt;h6&gt;【Windows 10周年更新64位简体中文教育版】&lt;/h6&gt;
+
+&lt;p&gt;文件名：cn_windows_10_education_version_1607_updated_jul_2016_x64_dvd_9056220.iso&lt;/p&gt;
+&lt;p&gt;SHA1：F89AAAE227D7B7D9644E70AEBBD1DD43DC16632A&lt;/p&gt;
+&lt;p&gt;发布时间：2016-8-2&lt;/p&gt;
+&lt;p&gt;文件大小：3.87GB&lt;/p&gt;
+&lt;p&gt;&lt;a accesskey="x" href="ed2k://%7Cfile%7Ccn_windows_10_education_version_1607_updated_jul_2016_x64_dvd_9056220.iso%7C4150953984%7CAD0737D5F182082C37E6D1DB7CCDBB77%7C/"&gt;下载 Windows 10周年更新64位简体中文教育版&lt;/a&gt;&lt;/p&gt;
+&lt;h6&gt;【Windows 10周年更新32位简体中文教育版】&lt;/h6&gt;
+
+&lt;p&gt;文件名：cn_windows_10_education_version_1607_updated_jul_2016_x86_dvd_9056381.iso&lt;/p&gt;
+&lt;p&gt;SHA1：095473BE76792E63A9E9F3EBA87E8E287376AB65&lt;/p&gt;
+&lt;p&gt;发布时间：2016-8-2&lt;/p&gt;
+&lt;p&gt;文件大小：2.89GB&lt;/p&gt;
+&lt;p&gt;&lt;a accesskey="x" href="ed2k://%7Cfile%7Ccn_windows_10_education_version_1607_updated_jul_2016_x86_dvd_9056381.iso%7C3103516672%7CBA95618BB3D14C0B91A7D6D2518DCCFC%7C/"&gt;下载 Windows 10周年更新32位简体中文教育版&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.microsoft.com/zh-cn/software-download/windows10ISO/"&gt;点击进入Windows10周年更新微软官方下载页面&lt;/a&gt;&lt;/p&gt;
+&lt;h4&gt;Windows 8.1&lt;/h4&gt;
+
+&lt;h6&gt;【Win8.1 64位简体中文企业版】&lt;/h6&gt;
+
+&lt;p&gt;文件名：cn_windows_8_1_enterprise_x64_dvd_2971863.iso
+SHA1： FBC9DF261E6DBF3E0027A835C7A593D8B524BB73&lt;/p&gt;
+&lt;p&gt;文件大小：3.76GB&lt;/p&gt;
+&lt;p&gt;&lt;a accesskey="x" href="ed2k://%7Cfile%7Ccn_windows_8_1_enterprise_x64_dvd_2971863.iso%7C4039327744%7C08BAF18320B8FFC58D4C35BCC7A32012%7C/"&gt;下载 Win8.1 64位简体中文企业版&lt;/a&gt;&lt;/p&gt;
+&lt;h6&gt;【Win8.1 32位简体中文企业版】&lt;/h6&gt;
+
+&lt;p&gt;文件名；cn_windows_8_1_enterprise_x86_dvd_2972257.iso&lt;/p&gt;
+&lt;p&gt;SHA1：CA89F9E297BF7E10D714E6316EAC85BED485D071&lt;/p&gt;
+&lt;p&gt;文件大小：2.84GB&lt;/p&gt;
+&lt;p&gt;&lt;a accesskey="x" href="ed2k://%7Cfile%7Ccn_windows_8_1_enterprise_x86_dvd_2972257.iso%7C3050842112%7C6B60ABF8282F943FE92327463920FB67%7C/"&gt;下载 Win8.1 32位简体中文企业版&lt;/a&gt;&lt;/p&gt;
+&lt;h4&gt;Windows 7&lt;/h4&gt;
+
+&lt;h6&gt;【Windows 7 64位简体中文旗舰版】&lt;/h6&gt;
+
+&lt;p&gt;文件名：cn_windows_7_ultimate_with_sp1_x64_dvd_u_677408.iso&lt;/p&gt;
+&lt;p&gt;文件大小：3.19 GB&lt;/p&gt;
+&lt;p&gt;SHA1：2CE0B2DB34D76ED3F697CE148CB7594432405E23&lt;/p&gt;
+&lt;p&gt;&lt;a accesskey="x" href="ed2k://%7Cfile%7Ccn_windows_7_ultimate_with_sp1_x64_dvd_u_677408.iso%7C3420557312%7CB58548681854236C7939003B583A8078%7C/"&gt;下载 Windows 7 64位简体中文旗舰版&lt;/a&gt;&lt;/p&gt;
+&lt;h6&gt;【Windows 7 32位简体中文旗舰版】&lt;/h6&gt;
+
+&lt;p&gt;文件名：cn_windows_7_ultimate_with_sp1_x86_dvd_u_677486.iso&lt;/p&gt;
+&lt;p&gt;文件大小：2.47 GB &lt;/p&gt;
+&lt;p&gt;SHA1：B92119F5B732ECE1C0850EDA30134536E18CCCE7&lt;/p&gt;
+&lt;p&gt;&lt;a accesskey="x" href="ed2k://%7Cfile%7Ccn_windows_7_ultimate_with_sp1_x86_dvd_u_677486.iso%7C2653276160%7C7503E4B9B8738DFCB95872445C72AEFB%7C/"&gt;下载 Windows 7 32位简体中文旗舰版&lt;/a&gt;&lt;/p&gt;
+&lt;h4&gt;Windows XP&lt;/h4&gt;
+
+&lt;h6&gt;【Windows XP SP3 简体中文专业版】&lt;/h6&gt;
+
+&lt;p&gt;文件名：zh-hans_windows_xp_professional_with_service_pack_3_x86_cd_vl_x14-74070.iso&lt;/p&gt;
+&lt;p&gt;文件大小：601.04 MB&lt;/p&gt;
+&lt;p&gt;SHA1：D142469D0C3953D8E4A6A490A58052EF52837F0F&lt;/p&gt;
+&lt;p&gt;&lt;a accesskey="x" href="ed2k://%7Cfile%7Czh-hans_windows_xp_professional_with_service_pack_3_x86_cd_vl_x14-74070.iso%7C630237184%7CEC51916C9D9B8B931195EE0D6EE9B40E%7C/"&gt;下载 Windows XP SP3 简体中文专业版&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description><category>iso</category><category>system</category><category>win7</category><category>win8</category><category>win8.1</category><category>win10</category><category>windows</category><category>xp</category><category>系统</category><category>镜像</category><guid>https://nvdacn.github.io/posts/winiso/</guid><pubDate>Tue, 02 Aug 2016 22:42:00 GMT</pubDate></item><item><title>小康讲windows10的设置和安装</title><link>https://nvdacn.github.io/posts/416/</link><dc:creator>星空</dc:creator><description>&lt;p&gt;本讲座详细的讲了windows10的安装合设置，还没有升级windows10的用户，合刚刚接触windows10的用户可以下来听听，下面是下载地址，感谢小康老师的讲解。
+&lt;a href="http://pan.baidu.com/share/link?shareid=2519492868&amp;amp;uk=3358895467"&gt;百度盘下载小康讲windows10安装与设置.mp3&lt;/a&gt;
+&lt;a href="http://www.zxrjy.net/jc/490.html"&gt;知行软件园在线试听 小康讲Windows10安装与设置&lt;/a&gt;&lt;/p&gt;</description><category>win10</category><category>windows</category><category>优化</category><category>小康</category><category>教程</category><category>系统</category><category>装系统</category><category>讲座</category><category>设置</category><guid>https://nvdacn.github.io/posts/416/</guid><pubDate>Sun, 01 May 2016 00:00:00 GMT</pubDate></item><item><title>windows 10 应用程序重点支持插件</title><link>https://nvdacn.github.io/posts/435/</link><dc:creator>酱油</dc:creator><description>&lt;p&gt;插件名称: Windows 10 App Essentials 
+作者: Joseph Lee 
+此插件可加强 NVDA 对 Win10 通用应用的可访问性，目前针对设置、计算器、Cortana、开始菜单、时钟和闹钟、TeamViewer等应用做了专门处理。
+如要了解详情以及获取最新更新，请访问&lt;a href="http://addons.nvda-project.org/addons/wintenApps.en.html"&gt;Windows 10 App Essentials 插件页面&lt;/a&gt;
+&lt;a accesskey="x" href="http://addons.nvda-project.org/files/get.php?file=w10"&gt;下载 wintenApps 官方同步更新&lt;/a&gt;
+&lt;a accesskey="x" href="http://www.nvdacn.com/189.php/BZZnUv6RZ36v.nvda-addon"&gt;本地下载 Windows 10应用程序重点支持 17.11&lt;/a&gt;&lt;/p&gt;</description><category>win10</category><category>windows</category><category>增强</category><category>插件</category><category>支持</category><guid>https://nvdacn.github.io/posts/435/</guid><pubDate>Thu, 24 Mar 2016 10:30:00 GMT</pubDate></item></channel></rss>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>NVDA中文站 (关于文章 teamviewer)</title><link>https://nvdacn.github.io/</link><description></description><atom:link href="https://nvdacn.github.io/categories/teamviewer.xml" rel="self" type="application/rss+xml"></atom:link><language>zh_cn</language><copyright>Contents © 2019 &lt;a href="mailto:dingpengyu06@gmail.com"&gt;nvdacn&lt;/a&gt; </copyright><lastBuildDate>Tue, 15 Jan 2019 05:25:44 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>teamViewer 访问性增强插件</title><link>https://nvdacn.github.io/posts/433/</link><dc:creator>酱油</dc:creator><description>&lt;p&gt;插件名称： teamViewer
+插件版本： 官方同步更新
+插件作者： Noelia Ruiz Martínez
+此插件可增强 NVDA 对于远程工具 teamViewer 的可访问性。
+局部快捷键：
+NVDA+Shift+C： 拷贝ID和密码；
+CTRL+tab： 在teamViewer主窗口中切换选项卡。
+&lt;a accesskey="x" href="http://addons.nvda-project.org/files/get.php?file=tv"&gt;远程下载 TeamViewer 增强支持 官方同步更新&lt;/a&gt;
+&lt;a accesskey="x" href="http://12355939.d.yyupload.com/down/12355939/nvdacn/addons/teamViewer-3.0-dev.nvda-addon"&gt;本地下载 teamViewer-3.0&lt;/a&gt;&lt;/p&gt;</description><category>teamviewer</category><category>插件</category><category>远程</category><guid>https://nvdacn.github.io/posts/433/</guid><pubDate>Thu, 24 Mar 2016 09:59:00 GMT</pubDate></item></channel></rss>

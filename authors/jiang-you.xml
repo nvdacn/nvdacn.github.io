@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>NVDA中文站 (文章有酱油发布)</title><link>https://nvdacn.github.io/</link><description></description><atom:link href="https://nvdacn.github.io/authors/jiang-you.xml" rel="self" type="application/rss+xml"></atom:link><language>zh_cn</language><copyright>Contents © 2019 &lt;a href="mailto:dingpengyu06@gmail.com"&gt;nvdacn&lt;/a&gt; </copyright><lastBuildDate>Tue, 15 Jan 2019 05:25:46 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>objPad 18.12 汉化版</title><link>https://nvdacn.github.io/posts/objpad/</link><dc:creator>酱油</dc:creator><description>&lt;div&gt;&lt;p&gt;ObjPad&lt;/p&gt;
+&lt;p&gt;作者：Joseph Lee，Cleverson Uliana和其他人
+汉化：目光&lt;/p&gt;
+&lt;p&gt;此附加组件提供快速命令来管理屏幕上的对象，包括导航和其他可能性。&lt;/p&gt;
+&lt;p&gt;命令&lt;/p&gt;
+&lt;p&gt;CTRL+ NVDA + TAB：通过箭头键模式的步骤（详见下文）。
+箭头键模式&lt;/p&gt;
+&lt;p&gt;该插件提供了四种使用箭头键的方法：&lt;/p&gt;
+&lt;p&gt;经典（或正常模式）：使用箭头键移动光标。
+对象导航：使用箭头键移动到下一个/上一个/父/第一个子对象。
+网页模式：使用箭头键循环遍历元素并在它们之间移动。
+扫描模式：使用箭头键移动屏幕上的对象，无论层次结构如何。&lt;/p&gt;
+&lt;p&gt;以下命令可用于将箭头键设置为对象导航：&lt;/p&gt;
+&lt;p&gt;右箭头：下一个对象。
+左箭头：上一个对象。
+向上箭头：父对象。
+向下箭头：第一个子对象。
+空格：激活。&lt;/p&gt;
+&lt;p&gt;网页模式激活：（元素是按照对象，链接，表单字段，标题，框架，表，列表，路标，来移动）&lt;/p&gt;
+&lt;p&gt;右箭头：下一个元素。
+左箭头：上一个元素。
+向上箭头：上一个元素类型。
+向下箭头：下一个元素类型。
+空格：激活。&lt;/p&gt;
+&lt;p&gt;激活扫描模式：&lt;/p&gt;
+&lt;p&gt;向下箭头：下一个对象。
+向上箭头：上一个对象。
+右箭头：查看下一个字符。
+左箭头：上一个字符。
+空格：激活。&lt;/p&gt;
+&lt;p&gt;版本16.12（2016.11.27）&lt;/p&gt;
+&lt;p&gt;Object Pad（通常缩写为ObjPad）16.12版现在可用。主要增强功能包括引入网页模式以在网页元素之间导航。进入此模式后，按向上或向下箭头更改元素，向左或向右箭头在元素之间导航。请注意，这不会取代首字母导航，或者在与表单交互时不需要使用焦点模式。
+添加了网页模式。（网页模式在Internet Explorer，Firefox，Chrome，Microsoft Edge，Microsoft Word，PDF和其他可以使用浏览模式的地方工作。）&lt;/p&gt;
+&lt;p&gt;版本16.10（2016.09.29）&lt;/p&gt;
+&lt;p&gt;初始稳定版本。&lt;/p&gt;
+&lt;p&gt;翻译整理：目光&lt;/p&gt;
+&lt;p&gt;&lt;a accesskey="x" href="https://github.com/josephsl/objPad/releases/download/18.12/objPad-18.12.nvda-addon"&gt;Github下载 ObjPad 18.12 汉化版&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description><category>光标</category><category>插件</category><category>浏览</category><category>焦点</category><category>笔记本</category><category>键盘</category><guid>https://nvdacn.github.io/posts/objpad/</guid><pubDate>Sun, 12 Nov 2017 09:44:00 GMT</pubDate></item><item><title>焦点突出显示 Focus Highlight</title><link>https://nvdacn.github.io/posts/749/</link><dc:creator>酱油</dc:creator><description>&lt;div&gt;&lt;p&gt;焦点突出显示 Focus Highlight&lt;/p&gt;
+&lt;p&gt;作者：Takuy​​a Nishimoto
+汉化：目光&lt;/p&gt;
+&lt;p&gt;通过绘制一个彩色的矩形，这个插件可以让弱视用户，有视力的教育工作者或开发者跟踪nvda导航器对象的位置和焦点对象/控件。&lt;/p&gt;
+&lt;p&gt;这个插件使用以下颜色：&lt;/p&gt;
+&lt;p&gt;绿色的锯齿线，以指示导航对象。
+红色的细长矩形，以指示聚焦的对象/控件。
+红色厚矩形，用于指示导航器对象和聚焦对象何时重叠。
+蓝色的粗斜长方形，表示NVDA处于对焦模式，即按键类型传递给控件。
+要禁用对象跟踪，请卸载插件。&lt;/p&gt;
+&lt;p&gt;更改为4.0&lt;/p&gt;
+&lt;p&gt;如果当前应用程序处于睡眠模式，请隐藏矩形。
+3.0的变化&lt;/p&gt;
+&lt;p&gt;修复了Windows任务管理器的问题。
+能够指示对焦模式。
+2.1的变化&lt;/p&gt;
+&lt;p&gt;新的和更新的翻译。
+2.0的变化&lt;/p&gt;
+&lt;p&gt;附加组件帮助可从附加组件管理器获得。
+更改为1.1&lt;/p&gt;
+&lt;p&gt;将导航对象矩形更改为锯齿线。
+修复了“重新加载插件”的问题。
+1.0的变化&lt;/p&gt;
+&lt;p&gt;在Internet Explorer 10和Windows 8的Skype中，修复导航器对象的问题。
+初始版本。&lt;/p&gt;
+&lt;p&gt;&lt;a accesskey="x" href="http://www.nvdacn.com/189.php/UnyaInfaI7ze.nvda-addon"&gt;本地下载 焦点突出显示 Focus Highlight&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description><category>低视力</category><category>光标</category><category>插件</category><guid>https://nvdacn.github.io/posts/749/</guid><pubDate>Sun, 12 Nov 2017 09:34:00 GMT</pubDate></item><item><title>电脑维护神器——小康PE盲用版</title><link>https://nvdacn.github.io/posts/xkpe/</link><dc:creator>酱油</dc:creator><description>&lt;div&gt;&lt;p&gt;小康 PE 盲用纪念版重磅更新，全新win10 16299内核，一键U盘安装，32位、64位随心而选，启动后内存占用低到你无法想象，灵活的驱动和外置程序接口，配置文件完全开源，让你完全DIY自己的PE系统。&lt;/p&gt;
+&lt;p&gt;&lt;a accesskey="x" href="http://www.nvdacn.com/189.php/MRzYJjeiiEfm.7z"&gt;本地下载 小康PE盲用版&lt;/a&gt;
+&lt;a href="http://www.xkgzs.net/archives/86"&gt;转到小康博客下载小康PE盲用版&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description><category>pe</category><category>系统</category><guid>https://nvdacn.github.io/posts/xkpe/</guid><pubDate>Sat, 04 Nov 2017 22:16:00 GMT</pubDate></item><item><title>最方便的接受远程协助——知行制作NVDA远程版</title><link>https://nvdacn.github.io/posts/zxnr/</link><dc:creator>酱油</dc:creator><description>&lt;p&gt;nvda远程版，远程协助神器，也可以说是nvda远程的被控端，当您的电脑遇到故障，安装此软件后，您的朋友就能利用nvda与您建立远程链接，来协同解决故障。
+此软件操作简单，运行流畅，若您下载后不知如何操作，请点击这里进入&lt;a href="http://zxrjy.net/jc/2395.html"&gt;NVDA远程版讲座试听页面&lt;/a&gt;
+&lt;a accesskey="x" href="http://www.nvdacn.com/189.php/YruEJj7VrIZz.exe"&gt;本地下载 知行软件园_NVDA远程版&lt;/a&gt;
+&lt;a href="http://zxrjy.net/yc/2381.html"&gt;进入知行软件园下载NVDA远程版&lt;/a&gt;&lt;/p&gt;</description><category>远程</category><guid>https://nvdacn.github.io/posts/zxnr/</guid><pubDate>Sat, 04 Nov 2017 09:53:00 GMT</pubDate></item><item><title>微信 UWP 插件 V1.51</title><link>https://nvdacn.github.io/posts/WeChatForWin10Addon/</link><dc:creator>酱油</dc:creator><description>&lt;div&gt;&lt;p&gt;感谢沉浮老师为我们带来这款“微信For Win10”插件。有了此插件，我们就可以使用主键盘轻松操作微信，不需要再使用复杂的对象浏览了。插件还增加了消息自动朗读、链接和文件消息识别等功能。具体请看&lt;/p&gt;
+&lt;h4&gt;微信插件v1.51升级日志&lt;/h4&gt;
+
+&lt;p&gt;1、增加 "esc"一键隐藏微信主窗口。按alt+t或任务栏快捷方式可切回。&lt;/p&gt;
+&lt;p&gt;2、增加"f7" 一键打开微信临时目录，方便提取播放的音视频文件。&lt;/p&gt;
+&lt;p&gt;3、增加control+h打开插件帮助文档。&lt;/p&gt;
+&lt;p&gt;4、优化通讯录分组的朗读。&lt;/p&gt;
+&lt;p&gt;5、修复产生报错音效的bug。&lt;/p&gt;
+&lt;p&gt;6、增加对微信主窗口控制，让其处于激活状态时保持最大画，以方便扫码等操作。&lt;/p&gt;
+&lt;h4&gt;微信(uwp)插件使用条件&lt;/h4&gt;
+
+&lt;p&gt;请在win 10 应用商店中搜索"微信"，结果列表中会出现两个结果，第一个是“微信 for windows 10”，第二个是“微信(uwp)”，本插件只支持“微信(uwp)”，不支持“微信 for windows 10”，请不要下错版本。&lt;/p&gt;
+&lt;h4&gt;热键说明&lt;/h4&gt;
+
+&lt;p&gt;上下光标：直接浏览会话列表和消息列表内容。&lt;/p&gt;
+&lt;p&gt;左右光标：在搜索框，会话列表，消息列表和发送消息编辑框之间切换。&lt;/p&gt;
+&lt;p&gt;小键盘加号和减号： 顺序浏览屏幕各项目&lt;/p&gt;
+&lt;p&gt;回车或空格激活当前项目，删除键可直接删除当前项，也可按application键探出操作菜单。&lt;/p&gt;
+&lt;p&gt;f1:发送消息（在回车键失效后可用。.&lt;/p&gt;
+&lt;p&gt;f2：读出当前会话标题&lt;/p&gt;
+&lt;p&gt;f3：切换编辑和浏览模式&lt;/p&gt;
+&lt;p&gt;f4：控制是否自动朗读最新消息&lt;/p&gt;
+&lt;p&gt;f5：连续朗读当前屏消息&lt;/p&gt;
+&lt;p&gt;f7：打开微信临时目录&lt;/p&gt;
+&lt;p&gt;f8：读表情消息&lt;/p&gt;
+&lt;p&gt;control+h：打开帮助文档&lt;/p&gt;
+&lt;p&gt;control+g：打开剪切板内链接&lt;/p&gt;
+&lt;p&gt;&lt;a accesskey="x" href="http://www.nvdacn.com/189.php/3MnIjubayqqq.nvda-addon"&gt;下载 微信 UWP 插件 v1.51&lt;/a&gt;
+&lt;a accesskey="x" href="http://www.nvdacn.com/189.php/JfIFzmb2Inuq.mp3"&gt;下载 微信 UWP 插件演示&lt;/a&gt;
+&lt;a accesskey="x" href="https://www.microsoft.com/store/productId/9NRJ2W1GNL09"&gt;下载 微信(UWP)&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description><category>win10</category><category>微信</category><category>插件</category><guid>https://nvdacn.github.io/posts/WeChatForWin10Addon/</guid><pubDate>Mon, 18 Sep 2017 09:49:00 GMT</pubDate></item><item><title>点飞详解 NVDA 的 Windows10 OCR 功能</title><link>https://nvdacn.github.io/posts/ocrxj/</link><dc:creator>酱油</dc:creator><description>&lt;p&gt;NVDA 将在 2017.3 正式版中推出 Windows 10 OCR 功能，届时 Windows 10 系统用户无需额外安装任何插件，即可使用 NVDA 调用 Windows 10 内置的 OCR 引擎。
+现在，点飞朋友为大家详细的介绍了 NVDA Windows 10 OCR 的使用方法，以及不同场景下 OCR 的应用。感谢他的详细讲解。
+&lt;a accesskey="x" href="http://nvdacn.com/189.php/nqAzyareQVRf.mp3"&gt;下载 NVDA 之 OCR 应用详解.mp3&lt;/a&gt;&lt;/p&gt;</description><category>ocr</category><guid>https://nvdacn.github.io/posts/ocrxj/</guid><pubDate>Sat, 05 Aug 2017 13:10:21 GMT</pubDate></item><item><title>翻译插件更新 - 全能翻译 3.0.0</title><link>https://nvdacn.github.io/posts/ricky/</link><dc:creator>酱油</dc:creator><description>&lt;div&gt;&lt;p&gt;翻译插件说明&lt;/p&gt;
+&lt;p&gt;该插件主要用于满足开发人员和经常使用翻译功能以及学习英语的nvda用户开发。主要功能分为三部分。在线翻译、本地生词本和离线词典三大块功能。
+1  在线翻译，该插件在线翻译可支持百度翻译、谷歌翻译、京山词霸、海词在线等翻译接口。其中，百度翻译和谷歌翻译主要用于长文本内容的翻译。京山词霸和海词在线主要用于单词短语的翻译。并且插件特别给长文本翻译和单词短语翻译分别设定调用不同的翻译引擎。长文本翻译默认使用百度翻译，单词短语翻译默认使用京山词霸翻译。并且都有独立的快捷键进行控制。用户也可自行到插件设置中进行修改。
+2  发音朗读工能。该翻译插件为了满足英语学习爱好者的需要，特别开发了发音朗读工能。目前除谷歌翻译外，其他的翻译引擎都支持发音朗读工能。其中百度翻译还支持中文发音。京山词霸和海词在线只支持英文发音朗读。用户可按下shift加Alt加n来听取发音朗读。用于朗读最后的翻译结果。
+3  智能生词本功能。翻译插件特别开发了智能生词本功能。插件默认有每日必备，并且会提醒用户这个单词下一次的背诵时间。同时也可以自己新建生词本。删除生词本。也可以把当前查询的单词直接添加到生词本里面。是英语学习爱好者的必备功能。
+4  离线词典工能。这是该插件的重磅功能。该插件完美支持了林格斯和mdict2.0两种离线词典。其中，功能最强大，词典最完善的当属林格斯词典。具体的离线词典，用户需自己去网上下载回来。然后放到翻译插件指定的离线词典目录下，就可以直接调用了。具体的离线词典目露，请到插件设置中查看。另外需要说明一点。因为林格斯词典体积较大，需要进行解压转换的过程。因此，如果是第一次使用林格斯词典。当把离线词典放到指定词典目录后，插件第一次加载需要有个解压转换的过程。该过程根据词典的大小，可能需要几分钟或者数十分钟。在词典解压过程中，可能会出现某些词语暂时查询不到的情况。等词典完全解压完毕，就可以查询所有词语了。在词典解压过程中，不影响用户查询单词。
+特别说明：  插件设置中，特别加入了代理设置功能。该功能主要是针对谷歌翻译而设置。因为如今谷歌翻译.cn已经回归中国。因此，使用谷歌翻译已经无需科学上网，可以直接调用google.cn &lt;/p&gt;
+&lt;p&gt;翻译接口使用。另外关于谷歌翻译引擎下的自动识别语言的问题。因为Google的自动语言识别是根据请求者的提交地区来识别的。因此因为我们是中国地区发起翻译请求，提交翻译内容，所以谷歌翻译默认值执行英译中，而不会执行中译英的功能。需要用谷歌翻译翻译中译英的，手动在插件设置中，设置谷歌的翻译语言和目标语言即可正常翻译。播放发音功能，需要系统Windowsmediaplayer的支持。因此，如果系统上没有安装Windowsmediaplayer的，则无法使用此功能。首次使用发音功能，系统会弹出Windowsmediaplayer的一个设置向导，根据提示选择使用系统推荐设置，然后点击完成，就可以正常使用插件的发音功能了。该插件的所有计划功能都已经开发完毕。插件版权归NVDA中文站所有。
+该插件仅用于拓展nvda的翻译功能，任何用户不得用于商业用途。请自觉遵守。开发人员将负责插件后期的bug维护。不包含新需求的功能开发。&lt;/p&gt;
+&lt;p&gt;热键说明&lt;/p&gt;
+&lt;p&gt;上一个生词本：ctrl+shift+q 
+下一个生词本：ctrl+shift+e 
+删除单词本：ctrl+shift+x 
+增加单词权重：ctrl+shift+f 
+插件配置编辑：shift+alt+e 
+播放翻译语音：shift+alt+n 
+新建生词本：ctrl+shift+z 
+显示下一个生词：ctrl+shift+d 
+显示单词详情：ctrl+shift+s 
+显示生词本：ctrl+shift+w 
+显示翻译详情：shift+alt+r 
+朗读上次翻译结果：shift+alt+m 
+生词本添加翻译单词：shift+alt+回车 
+翻译剪切板：shift+alt+s 
+翻译剪切板2：shift+alt+a 
+翻译剪切板选中的单词：shift+alt+u 
+翻译缓冲区：shift+alt+w 
+翻译缓冲区2：shift+alt+q 
+翻译缓冲区选中单词：shift+alt+f 
+选择上一个生词：ctrl+shift+a 
+选择剪切板上个单词：shift+alt+j 
+选择剪切板下个单词：shift+alt+l 
+选择缓冲区上个单词：shift+alt+i 
+选择缓冲区下个单词：shift+alt+k 
+重置单词权重：ctrl+shift+r &lt;/p&gt;
+&lt;p&gt;更新日志&lt;/p&gt;
+&lt;p&gt;3.0.0 build2
+1  解决百度翻译无法中译英的问题；
+2  解决百度翻译发音功能无法使用的问题
+3.0.0 build1
+1  解决百度翻译无法使用的问题。需要注册个人百度翻译秘钥方可使用。
+秘钥注册地址：
+http://api.fanyi.baidu.com/api/trans/product/index
+2  解决海词在线无法获取到雌性的问题。&lt;/p&gt;
+&lt;p&gt;2.0.10
+修复翻译详情界面无法用tab和光标操作的问题。&lt;/p&gt;
+&lt;p&gt;2.0.9
+解决在新建生词本对话框无法直接按tab操作的问题。&lt;/p&gt;
+&lt;p&gt;2.0.8
+1  解决剪贴板单词不能自动刷新的问题，
+2  解决生词本窗口不能按tab访问控件焦点的问题；&lt;/p&gt;
+&lt;p&gt;2.0.6
+1  修复了Ctrl加shift加s在输入手势中看不到的问题。
+2  修复了在输入手势中删除插件快捷键，快捷键仍然有效的问题。
+3  修复了插件设置窗口，不能再前台直接操作的问题。
+4  修复了长时间使用播放发音功能，会导致插件卡死的问题。
+5  修复了播放发音功能，提交语言类型错误的问题。
+6  修复了翻译剪贴板单词和缓冲区选中单词，调用单词引擎而不是在调用长文本翻译引擎的问题。&lt;/p&gt;
+&lt;p&gt;特别鸣谢
+感谢程序员老师saber的辛苦开发；感谢本次活动的组织者飞鹰、雪岭冰龙、永远的星光和参与插件测试的各位小伙伴；感谢为这次插件开发捐款的朋友们。
+活动的发起过程以及捐款明细可以查看下面的链接。
+&lt;a href="https://www.nvdacn.com/archives/3382.html"&gt;活动发起过程&lt;/a&gt;
+《&lt;a href="https://www.nvdacn.com/archives/3732.html"&gt;捐款名单&lt;/a&gt;
+&lt;a accesskey="x" href="http://www.nvdacn.com/189.php/673EvmnmAnQb.rar"&gt;本地下载 全能翻译 3.0.0&lt;/a&gt;
+&lt;a accesskey="x" href="https://cloud.189.cn/t/673EvmnmAnQb"&gt;网盘备用下载 全能翻译 3.0.0&lt;/a&gt;
+&lt;a href="http://www.lingoes.cn/zh/dictionary/index.html"&gt;灵格斯词库下载页面&lt;/a&gt;
+&lt;a href="http://www.mdict.cn/wp/?page_id=5227&amp;amp;lang=zh"&gt;MDict词库下载页面&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description><category>插件</category><category>翻译</category><category>词典</category><guid>https://nvdacn.github.io/posts/ricky/</guid><pubDate>Thu, 20 Jul 2017 05:01:00 GMT</pubDate></item><item><title>科大讯飞 InterPhonick 调用插件</title><link>https://nvdacn.github.io/posts/InterPhonick/</link><dc:creator>酱油</dc:creator><description>&lt;p&gt;科大讯飞 InterPhonick 调用插件
+作者：刹那福至
+此插件可让 NVDA 调用大家熟悉的科大讯飞 InterPhonick 3.0/5.0 语音库，电脑中需要安装科大讯飞 InterPhonick 3.0/5.0。
+&lt;a accesskey="x" href="http://www.nvdacn.com/189.php/amUbi2MjmeUv.nvda-addon"&gt;下载 科大讯飞 3.0 插件&lt;/a&gt;
+&lt;a accesskey="x" href="http://www.nvdacn.com/189.php/uiamuimiieau.nvda-addon"&gt;下载 科大讯飞 5.0 插件&lt;/a&gt;&lt;/p&gt;</description><guid>https://nvdacn.github.io/posts/InterPhonick/</guid><pubDate>Sat, 15 Jul 2017 09:07:00 GMT</pubDate></item><item><title>摇摆企鹅简单演示NVDA操作微信for windows10</title><link>https://nvdacn.github.io/posts/nvda-weixin-windows10/</link><dc:creator>酱油</dc:creator><description>&lt;p&gt;&lt;a accesskey="x" href="http://www.nvdacn.com/189.php/rauQZveMfAnq.mp3"&gt;下载 摇摆企鹅简单演示NVDA操作微信for windows10&lt;/a&gt;&lt;/p&gt;</description><guid>https://nvdacn.github.io/posts/nvda-weixin-windows10/</guid><pubDate>Sun, 21 May 2017 04:35:00 GMT</pubDate></item><item><title>服务器列表更新，NVDA 远程访问 2.0大版本上线远程盲文支持</title><link>https://nvdacn.github.io/posts/nr/</link><dc:creator>酱油</dc:creator><description>&lt;div&gt;&lt;h3&gt;2.0更新日志 #&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;支持远程盲文&lt;/li&gt;
+&lt;li&gt;支持nvdaremote:// 链接（可在菜单内选择拷贝链接获取并分享）&lt;/li&gt;
+&lt;li&gt;居中对话框，以适应 NVDA的界面风格&lt;/li&gt;
+&lt;li&gt;恢复端口检测域名 portcheck.nvdaremote.com&lt;/li&gt;
+&lt;li&gt;支持无人值守的自动服务器连接&lt;/li&gt;
+&lt;li&gt;更新远程协议到2.0，在每一条发送的消息中都加入来源信息&lt;/li&gt;
+&lt;li&gt;整理代码，修订文档
+遇到了电脑问题不知道怎么办？想找人帮忙身边朋友都不在？路程太远帮忙太困难？难道就没办法了？当然不是。 
+NVDA远程访问插件可以让同时装了NVDA和NVDA远程插件的两台电脑互相进行远程协助，插件只在电脑之间传输文字命令，因此即使通过NVDA官方的服务器进行连接，也能保证连接的稳定性。然而毕竟远隔万里，能有自己的服务器自然是更好的，于是服务器就这么有了。
+服务器1（来自&lt;a href="http://apk.qt06.com"&gt;中国安卓盲人爱好者联盟&lt;/a&gt;）：nr.qt.hk
+服务器2（来自&lt;a href="http://www.xytk.cn"&gt;新翼天空&lt;/a&gt;）：nr.xytk.cn
+服务器3（来自&lt;a href="https://www.chenyao.pro/nrrs"&gt;陈瑶NVDA中继服务&lt;/a&gt;）：nr.chenyao.pro
+服务器4（来自&lt;a href="http://www.zxrjy.net"&gt;知行软件园&lt;/a&gt;）：nr.zxrjy.net&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;具体来讲，就是控制方将键盘命令发送到被控方，被控方则将NVDA浏览到的内容以文字指令发送回控制方，控制方的NVDA远程插件就会调用NVDA的语音合成器读出被控方电脑上NVDA所浏览到的内容。
+&lt;/p&gt;&lt;h3&gt;【使用方法】&lt;/h3&gt;
+安装NVDA远程访问插件后，在NVDA菜单的工具子菜单中会找到远程子菜单，下面依次介绍每个菜单的作用。
+&lt;h4&gt;连接：&lt;/h4&gt;
+执行“连接”菜单命令后，会弹出连接对话框，对话框内用tab键浏览各选项。
+首先让你选择你的电脑是客户端还是服务器，一般用户请选择“客户端”，如果选择“服务器”进行两台电脑直接连接，需要进行一些设置，后面再说明。
+下一项选项是选择控制另一台电脑还是让这台电脑被控制，根据你要远程协助别人还是接受别人远程帮助来选择对应的单选项。协助方和被协助方必须正确选择才能互相连接。
+接下来“主机”一栏填写NVDA远程中间服务器地址。控制和被控方必须填写相同的服务器地址。
+然后是设置一个密钥，可以手动填写在“密钥”栏，也可以点击“创建密钥”按钮自动生成密钥，双方必须填写相同的密钥。控制和被控方通过此密钥配对。
+最后点击确认，就会连接到远程服务器”，并且听到一个声音提示。当对方电脑也连接到远程服务器后，还会听到一个提示音。
+成功配对后，控制方通过按F11来切换发送键盘命令和不发送键盘命令，也就是控制和不控制对方电脑。
+&lt;h4&gt;断开：&lt;/h4&gt;
+执行“断开”菜单，断开与远程服务器的连接，结束远程协助。
+&lt;h4&gt;静音远程：&lt;/h4&gt;
+在与他人远程时，控制方会听到被控方NVDA浏览的内容，即使是你没有发送键盘命令，这样会对控制方的操作造成干扰，执行“静音远程”就会停止朗读对方NVDA浏览到的项目。此功能可在NVDA输入手势对话框中的NVDA 远程分之下找到
+“静音或取消静音来自远程计算机的语音”
+设置快捷键。
+&lt;h4&gt;发送剪贴板：&lt;/h4&gt;
+执行“发送剪贴板”菜单，可以将控制方的剪贴板中的文本发送到被控方。注意，只能发送文本不能发送文件。
+&lt;h4&gt;选项：&lt;/h4&gt;
+执行“选项”菜单可以打开NVDA远程插件的选项对话框。
+选项中有一项叫做“启动时自动连接到控制服务器”的选项，选中该复选框后，对话框中会出现一些选项。
+首先是一组单选按钮，选中“使用远程控制服务器”单选按钮，在NVDA启动时，本机将自动作为被控方连接。
+选中“主控服务器”单选按钮，则在NVDA启动时作为主控方进行自动连接。
+下面是填写主机地址和密钥的编辑框，如果作为主控方连接，还会出现填写端口的编辑框，默认端口6837请勿随意修改。
+配置好启动时自动连接后，NVDA启动后就会连接到远程服务器。不建议配置自动连接，这样既给自己的电脑带来风险又给架设的远程服务器增加负担。
+&lt;h4&gt;发送CTRL+Alt+Del命令：&lt;/h4&gt;
+在远程控制他人电脑时，本机按下CTRL+Alt+del就会进入本机的安全桌面，这样就无法直接通过键盘将CTRL+Alt+Del命令发送到被控方，这时如果正需要让对方电脑进入远程桌面，则需要执行“
+发送CTRL+Alt+Del命令”菜单。
+&lt;h3&gt;直接连接&lt;/h3&gt;
+在连接对话框中的第一组单选按钮选择“服务器”，之后的配置和通过中间服务器进行远程类似，
+此时主机地址变为外部IP，需要点击“获取外部IP”按钮来获得你的外网IP地址，对方也要填写这个IP地址。
+点击“获取外部IP地址”后，如果提示端口不可用，就需要去设置路由器了。
+以TP-Link路由器为例，在路由器管理页面，依次进入“转发规则”-&amp;gt;“DMZ主机”,
+在DMZ主机设置页面选中启用单选按钮，在DMZ主机IP地址： 一栏填写当前所用电脑的内网IP地址，
+内网IP地址可在路由器管理页的DHCP服务器/客户端列表页中查看到，
+也可以在命令行通过ipconfig命令查看。
+如果端口可用但获取不到本机外部IP，可以在路由器或者其他IP地址查询网站等方式查看本机外网IP。然后将IP地址告诉对方，也可正常连接。
+之后是填写端口和秘钥，端口默认6837，请勿随意修改。
+接下来的操作过程就跟通过中间服务器连接一样了。
+&lt;p&gt;NVDA远程项目官网&lt;a href="http://nvdaremote.com"&gt;nvdaremote.com&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a accesskey="x" href="https://nvdaremote.com/remote-2.0.nvda-addon"&gt;远程下载：NVDA远程 2.0&lt;/a&gt;
+&lt;a accesskey="x" href="http://www.nvdacn.com/189.php/6Njey2ryIfim.nvda-addon"&gt;本地下载：NVDA远程 2.0&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description><category>协助</category><category>插件</category><category>远程</category><guid>https://nvdacn.github.io/posts/nr/</guid><pubDate>Wed, 15 Feb 2017 14:38:00 GMT</pubDate></item></channel></rss>

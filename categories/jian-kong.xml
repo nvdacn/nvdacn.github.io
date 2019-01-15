@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>NVDA中文站 (关于文章 监控)</title><link>https://nvdacn.github.io/</link><description></description><atom:link href="https://nvdacn.github.io/categories/jian-kong.xml" rel="self" type="application/rss+xml"></atom:link><language>zh_cn</language><copyright>Contents © 2019 &lt;a href="mailto:dingpengyu06@gmail.com"&gt;nvdacn&lt;/a&gt; </copyright><lastBuildDate>Tue, 15 Jan 2019 05:25:44 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>USB监控</title><link>https://nvdacn.github.io/posts/434/</link><dc:creator>酱油</dc:creator><description>&lt;p&gt;插件名称： 监视USB插拔状态
+插件版本： 1.0
+插件作者： 沈广荣
+此插件安装后即可监控USB设备插拔状态。
+&lt;a accesskey="x" href="http://12355939.d.yyupload.com/down/12355939/nvdacn/addons/USB%E7%9B%91%E6%8E%A7.rar"&gt;本地下载1：USB监控&lt;/a&gt;
+&lt;a accesskey="x" href="http://www.nvdacn.com/189.php/Vj2EBfNRJvQr.rar"&gt;本地下载2：USB监控&lt;/a&gt;
+&lt;a accesskey="x" href="https://eyun.baidu.com/s/3pL73vWv"&gt;百度盘备用下载：USB监控（提取密码：HcLP）&lt;/a&gt;&lt;/p&gt;</description><category>usb</category><category>插件</category><category>状态</category><category>监控</category><category>设备</category><guid>https://nvdacn.github.io/posts/434/</guid><pubDate>Thu, 24 Mar 2016 10:11:00 GMT</pubDate></item></channel></rss>
