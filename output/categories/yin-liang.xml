@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>NVDA中文站 (关于文章 音量)</title><link>https://nvdacn.github.io/</link><description></description><atom:link href="https://nvdacn.github.io/categories/yin-liang.xml" rel="self" type="application/rss+xml"></atom:link><language>zh_cn</language><copyright>Contents © 2019 &lt;a href="mailto:dingpengyu06@gmail.com"&gt;nvdacn&lt;/a&gt; </copyright><lastBuildDate>Tue, 15 Jan 2019 05:25:44 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>音频控制 1.3</title><link>https://nvdacn.github.io/posts/ac/</link><dc:creator>酱油</dc:creator><description>&lt;p&gt;插件名称： 音频控制 Audio Control
+插件版本： 1.3
+插件作者： 幽兰少云
+插件说明：
+此插件可以分别调节系统音量、麦克风音量、每个正在运行程序的音量。
+快捷键：
+ctrl+win+alt+数字键盘4： 上一个音频参数调节；
+ctrl+win+alt+数字键盘6： 下一个音频参数调节；
+ctrl+win+alt+数字键盘8： 增大当前调节音频音量；
+ctrl+win+alt+数字键盘2： 减小当前调节音频音量。
+ctrl+win+alt+数字键盘5： 静音或取消静音当前调节音频声音。
+&lt;a accesskey="x" href="http://12355939.d.yyupload.com/down/12355939/nvdacn/addons/%E9%9F%B3%E9%A2%91%E6%8E%A7%E5%88%B6_1.3.rar"&gt;本地下载1：音频控制 1.3&lt;/a&gt;
+&lt;a accesskey="x" href="http://www.nvdacn.com/189.php/vmmqiaZFfMVr.nvda-addon"&gt;本地下载2：音频控制 1.3&lt;/a&gt;
+&lt;a accesskey="x" href="https://eyun.baidu.com/s/3o8bHxqU"&gt;百度盘备用下载：音频控制（提取密码：TeHR）&lt;/a&gt;&lt;/p&gt;</description><category>声音</category><category>插件</category><category>音量</category><category>音频</category><guid>https://nvdacn.github.io/posts/ac/</guid><pubDate>Thu, 24 Mar 2016 09:11:00 GMT</pubDate></item></channel></rss>

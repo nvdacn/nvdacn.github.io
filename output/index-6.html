@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article# " lang="zh_cn">
+<head>
+<meta charset="utf-8">
+<meta name="description" content="改变，从这里开始。">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>NVDA中文站 (旧文章页 6) | NVDA中文站</title>
+<link href="assets/css/all-nocdn.css" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Playfair+Display:700,900" rel="stylesheet">
+<meta name="theme-color" content="#5670d4">
+<meta name="generator" content="Nikola (getnikola.com)">
+<link rel="alternate" type="application/rss+xml" title="RSS" href="rss.xml">
+<link rel="canonical" href="https://nvdacn.github.io/index-6.html">
+<link rel="prev" href="index-7.html" type="text/html">
+<link rel="next" href="index-5.html" type="text/html">
+<!--[if lt IE 9]><script src="assets/js/html5.js"></script><![endif]-->
+</head>
+<body>
+<a href="#content" class="sr-only sr-only-focusable">跳到主内容</a>
+
+<!-- Header and menu bar -->
+<div class="container">
+      <header class="blog-header py-3"><div class="row nbb-header align-items-center">
+          <div class="col-md-3 col-xs-2 col-sm-2" style="width: auto;">
+            <button class="navbar-toggler navbar-light bg-light nbb-navbar-toggler" type="button" data-toggle="collapse" data-target=".bs-nav-collapsible" aria-controls="bs-navbar" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse bs-nav-collapsible bootblog4-search-form-holder">
+                
+            </div>
+        </div>
+          <div class="col-md-6 col-xs-10 col-sm-10 bootblog4-brand" style="width: auto;">
+            <a class="navbar-brand blog-header-logo text-dark" href="https://nvdacn.github.io/">
+
+            <span id="blog-title">NVDA中文站</span>
+        </a>
+          </div>
+            <div class="col-md-3 justify-content-end align-items-center bs-nav-collapsible collapse flex-collapse bootblog4-right-nav">
+            <nav class="navbar navbar-light bg-white"><ul class="navbar-nav bootblog4-right-nav"></ul></nav>
+</div>
+    </div>
+</header><nav class="navbar navbar-expand-md navbar-light bg-white static-top"><div class="collapse navbar-collapse bs-nav-collapsible" id="bs-navbar">
+            <ul class="navbar-nav nav-fill d-flex w-100">
+<li class="nav-item">
+<a href="archive.html" class="nav-link">文章归档</a>
+                </li>
+<li class="nav-item">
+<a href="categories/" class="nav-link">标签</a>
+                </li>
+<li class="nav-item">
+<a href="rss.xml" class="nav-link">RSS 源</a>
+
+                
+            </li>
+</ul>
+</div>
+<!-- /.navbar-collapse -->
+</nav>
+</div>
+
+<div class="container" id="content" role="main">
+    <div class="body-content">
+        <!--Body content-->
+        
+        
+    
+        
+
+    
+        
+    <div class="postindex">
+            <article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title"><a href="posts/nvwave/" class="u-url">nvwave:音频播放及音频设备控制模块</a></h1>
+                <div class="metadata">
+                    <p class="byline author vcard"><span class="byline-name fn" itemprop="author">
+                        <a href="authors/da-jiang-you/">打酱油</a>
+                    </span></p>
+            <p class="dateline">
+            <a href="posts/nvwave/" rel="bookmark">
+            <time class="published dt-published" datetime="2016-06-01T15:34:00+08:00" itemprop="datePublished" title="2016-06-01 15:34">2016-06-01 15:34</time></a>
+            </p>
+                </div>
+            </header><div class="e-content entry-content">
+                    <div>
+<p>提供一个简单的python界面，通过windows 多媒体 waveOut函数播放音频，也可作为实用的音频工具。
+下面介绍这个模块所包含的类和方法：
+</p>
+<h4>WavePlayer：类，同步播放一个音频流</h4>
+用法：构建一个实例，并使用 feed 嵌入波形格式音频。
+<h4>_winmm_errcheck，初始化错误检测。</h4>
+<h4>
+<strong>init</strong>：初始化。</h4>
+参数：
+channels：音频声道数量（整数），如1声道为单声道，2声道为立体声等。
+samplesPerSec：每秒采样数（整数，单位为HZ）
+bitsPerSample: 每秒比特率（整数）
+outputDevice: 设备 ID 或所使用的输出设备的名称（整数或字串）
+closeWhenIdle: 如果为 True，没有音频输出时关闭音频设备（
+wantDucking: 如果为 True，windows8以上的系统的背景音量将会被降低
+注释：如果 outputDevice所包含的设备名称不存在，将使用默认设备
+触发WindowsError: 如果出现错误则打开音频输出设备
+<h4>open:打开音频设备，如果需要，他可被自动调用。</h4>
+<h4>feed：提供一块音频数据以供播放之用，通常这会与上一音频块同步，如在没有音频播放的时候调用，它会在上一个音频播放结束之后马上播放所调用的音频块，且会立马返回。通常这可用来无缝的串接音频块的播放</h4>
+参数：
+data: 构建实力时所指定格式的波形音频（字符串）
+触发WindowsError: 播放音频时出错
+<h4>sync：与回放同步，直到上一段音频播放完毕之前此方法都处于锁定状态</h4>
+它会被L{feed}自动调用，所以，通常情况下用户无需直接调用。
+<h4>pause：函数，暂停或取消暂停回放</h4>
+参数：
+switch： 为 True 时暂停播放，为 False时取消暂停
+<h4>idle：显示播放器的空闲状态，极音频播放完毕后的状态。它会先调用 sync 与回放同步。如果 closeWhenIdle 为 True，输出设备将会被关闭。如果与 feed 同时调用将重开音频设备。</h4>
+<h4>stop：函数，停止回放。在某些系统下，先暂停或可使得waveOutReset的响应速度变得更快。waveOutReset在某些系统可能会造成随机错误。如果设备被占用，取消上一次缓冲的预处理并关闭播放设备。</h4>
+<h4>close，函数，关闭播放设备。</h4>
+<h4>_getOutputDevices，获取输出设备，某些情况下，windows所包含的设备不可访问</h4>
+<h4>getOutputDeviceNames：获取所有输出设备的名称。返回值是所有输出设备的名称。</h4>
+<h4>outputDeviceIDToName：获取给定ID所属设备的名称。</h4>
+参数：ID：设备ID（整数）
+返回值：设备名称（字符串）
+<h4>、outputDeviceNameToID：获取给定名称所属设备的ID。</h4>
+参数：name，设备名称（字符串）
+useDefaultIfInvalid： 为 True}时，使用默认设备，为 False时触发exception
+返回值：设备ID（整数）
+触发LookupError：如果 useDefaultIfInvalid 为 False 且没有所调用的设备则触发</div>
+                </div>
+            </article><article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title"><a href="posts/NVDAGroupPlanting/" class="u-url">光速完成的NVDA官方群人数上限拓展计划</a></h1>
+                <div class="metadata">
+                    <p class="byline author vcard"><span class="byline-name fn" itemprop="author">
+                        <a href="authors/da-jiang-you/">打酱油</a>
+                    </span></p>
+            <p class="dateline">
+            <a href="posts/NVDAGroupPlanting/" rel="bookmark">
+            <time class="published dt-published" datetime="2016-05-18T22:00:00+08:00" itemprop="datePublished" title="2016-05-18 22:00">2016-05-18 22:00</time></a>
+            </p>
+                </div>
+            </header><div class="e-content entry-content">
+                    <p>就在今天，群主的qq号的会员过了期，NVDA官方交流群的人数上限跌至谷底的200人，面对拥有752人数治巨用户群的大群，应该何去何从，大家纷纷献言献策。
+如果保持原有非会员身份，即使升级到500人群，也得有接近三百为朋友离开才能留出空余的位置给后来者，这样明显不可行。于是大家一致认为，应该开超级会员，把NVDA中文交流变成2000人的大群，于是，轰轰烈烈的凑钱大行动就这么开始了。
+飞鹰的200元“财政拨款”是这一次行动的开端，这时候正好是十二点十分。大元帅、子非鱼、雪影飘风等朋友纷纷加入，款项不断攀升。考虑到有很多希望出力的朋友都无法获知发生了情况，于是群内开始了长达一小时的讨论，把《给全体会员的一条消息》改了又改，群主还顺带学了学怎么@成员......
+从收到消息的那一刻起，朋友们纷纷响应。刚到三点半，所需的655.2大洋就已全数凑够。还有很多朋友虽然很忙，但都没忘了留言希望出一份力。最后交由晴天用京东开了四年的超级会员，在这期间，群容量不再是问题了。从十二点十分到下午三点半，只用了三个小时就凑够了所有需要的款项，除了惊诧还能有什么其他反应呢？那些抨击中国没有公益，中国人都十分自私的人们可以到一编凉快去了。
+通过这次大家的共同努力，成功维护了NVDA中文交流这个充满爱心、充满温馨的家园的可持续发展，真让人振奋。想必，所有关心NVDA、喜欢NVDA中文交流这个群的朋友们都会感到由衷的欣慰。让我们一起感谢朋友们的付出，NVDA必将越来越好，NVDA中文交流也将一如既往的为所有人服务。最后放上所有捐款人的姓名，按照时间排序，以作纪念，再次感谢朋友们：
+飞鹰
+大元帅
+子非鱼
+雪影飘风
+金童路
+Y 
+王杰
+一夜孤舟
+Fehling 
+龙剑寒心 
+向水问鱼 
+摇摆企鹅
+权
+至上的木头 
+目空一惬 
+冬瓜先生 
+悟空 
+朝红
+晴天</p>
+                </div>
+            </article><article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title"><a href="posts/etg/" class="u-url">NVDA触摸手势增强插件</a></h1>
+                <div class="metadata">
+                    <p class="byline author vcard"><span class="byline-name fn" itemprop="author">
+                        <a href="authors/da-jiang-you/">打酱油</a>
+                    </span></p>
+            <p class="dateline">
+            <a href="posts/etg/" rel="bookmark">
+            <time class="published dt-published" datetime="2016-05-05T20:03:00+08:00" itemprop="datePublished" title="2016-05-05 20:03">2016-05-05 20:03</time></a>
+            </p>
+                </div>
+            </header><div class="e-content entry-content">
+                    <div>
+<p>插件名称：触摸手势增强
+作者：Joseph Lee          <br>
+NVDA版本要求：2012.3或以上
+运行环境：安装有windows8或以上带有触摸屏的计算机
+简介：增强触摸手式，顾名思义，是一个增强NVDA触摸手式支持的插件，内置的手式丰富实用，且可轻松的进行手式自定义，下面让我们一窥真面。
+0.7更新修复Bug：
+1、解决帮助模式被破坏；
+2、增强屏幕的方向滚动识别度。
+0.5更新：
+1、支持windows10
+2、新增触摸屏键盘开关支持，四指右滑
+快捷键：
+</p>
+<h4>全局触摸手势</h4>
+四指双击：切换“帮助模式”的开关
+点击并按住：鼠标右键单机手指下方的对象
+四指右滑：切换触摸键盘
+<h4>对象模式</h4>
+三指下滑：朗读当前窗口
+三指左滑：朗读焦点所在对象
+三指右滑：朗读浏览光标所在对象
+四指上滑：朗读当前窗口的标题
+四指下滑：朗读状态栏信息
+<h4>网页触摸模式</h4>
+此模式可用在浏览模式之中，允许您使用选择的元素浏览文档。通过三指点击的方式可以从文档浏览模式切换到网页触摸模式。使用上下滑动选择需要使用的元素，单只左滑或者右滑选择前一个或后一个选择的元素，当您离开浏览模式文档，则将使用对象触摸模式
+<h4>语音设置触摸模式</h4>
+您可以使用该模式迅速修改合成器选项的值（如选择一种语音或更改音量等）。使用双指左滑或者右滑选择需要修改的语音选项，双指上滑或双指下滑修改所选项目的值，此设置与语音选项的键盘命令的作用相同。
+<h4>坐标提示音</h4>
+    当您启用了“鼠标设置”的“鼠标移动时播放音频坐标”选项，使用触摸手势浏览屏幕就能听到相应的提示音，从而得知所在的屏幕坐标范围。
+<p><a accesskey="x" href="http://addons.nvda-project.org/files/get.php?file=ets">触摸手势增强官方同步更新下载</a>
+<a accesskey="x" href="http://www.zd.hk/disk/?id=a2Ur2iY7Vnee">本地下载：触摸手势增强 EnhancedTouchGestures 16.12 汉化版</a>
+</p>
+<h3>附录：NVDA内置手势一览（感谢风清扬整理）</h3>
+三个手指点击屏幕:切换触摸模式。 
+停止朗读:双指点击
+<p>NVDA 菜单:双指双击,弹出的 NVDA 菜单允许您访问“选项”、“工具”和“帮助”等等
+</p>
+<h4>对象导航</h4>
+移动到父对象:向上滑动(对象模式),移动到包含当前对象的父对象。
+移动到上一个对象:向左滑动(对象模式),移动到当前对象的前一个对象。
+移动到下一个对象:向右滑动(对象模式),移动到当前对象的后一个对象。
+移动到第一个被包含的对象:向下滑动(对象模式),移动到当前对象所包含的第一个子对象。
+激活当前的浏览对象:点击两次,激活当前的导航对象(类似点击鼠标或者在有焦点的对象上按空格键)。
+<h4>文本查看</h4>
+移动到查看对象的上一行:向上滑动(文本模式),移动浏览光标到文本的上一行
+移动到查看对象的下一行:向下滑动(文本模式),移动浏览光标到文本的下一行
+移动到查看对象的上一个词:两个手指向左滑动(文本模式),移动浏览光标到文本的上一个词。
+移动到查看对象的下一个词:两个手指向右滑动(文本模式),移动浏览光标到文本的下一个词。
+移动到当前查看对象的上一个字:向左滑动(文本模式),移动浏览光标到文本的当前行的上一个字符
+移动到当前查看对象的下一个字:向左滑动(文本模式),移动浏览光标到文本的当前行的下一个字符
+导航对象全文朗读:三个手指向下滑动(文本模式),从浏览光标所在位置开始朗读并随之移动。
+<h4>浏览模式</h4>
+切换到下一个浏览模式:两个手指向上滑动,切换到下一个可用的浏览模式
+切换到上一个浏览模式:两个手指向下滑动,切换到上一个可用的浏览模式</div>
+                </div>
+            </article><article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title"><a href="posts/439/" class="u-url">切换合成器 SwitchSynth</a></h1>
+                <div class="metadata">
+                    <p class="byline author vcard"><span class="byline-name fn" itemprop="author">
+                        <a href="authors/jiang-you/">酱油</a>
+                    </span></p>
+            <p class="dateline">
+            <a href="posts/439/" rel="bookmark">
+            <time class="published dt-published" datetime="2016-05-05T17:58:00+08:00" itemprop="datePublished" title="2016-05-05 17:58">2016-05-05 17:58</time></a>
+            </p>
+                </div>
+            </header><div class="e-content entry-content">
+                    <div>
+<p>插件名称： 切换合成器SwitchSynth
+插件版本： 官方同步更新
+作者： Tyler Spivey
+使用方法： 下面以实际操作举例。
+插件总共可以设置6个合成器进行快速切换，按NVDA+CTRL+Shift+1到6选择预设的合成器插槽。
+首先按NVDA+CTRL+Shift+1选择第一个合成器插槽，假设药设置Sapi5为第一个合成器，按完NVDA+CTRL+Shift+1之后，打开NVDA语音合成器，选择Microsoft Speech API version 5，然后设定好Sapi5接口药用的语音和语音参数，之后按NVDA+CTRL+Shift+V保存设置，以后按NVDA+CTRL+Shift+1就可以快速选择Sapi5合成器，并且会应用当时保存时所做的配置。</p>
+<p><a accesskey="X" href="http://addons.nvda-project.org/files/get.php?file=sws">远程下载 切换合成器SwitchSynth</a>
+<a accesskey="x" href="http://www.zd.hk/disk/?id=NRzmQbIjMRJj">本地下载1：切换合成器 SwitchSynth</a></p>
+</div>
+                </div>
+            </article><article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title"><a href="posts/416/" class="u-url">小康讲windows10的设置和安装</a></h1>
+                <div class="metadata">
+                    <p class="byline author vcard"><span class="byline-name fn" itemprop="author">
+                        <a href="authors/xing-kong/">星空</a>
+                    </span></p>
+            <p class="dateline">
+            <a href="posts/416/" rel="bookmark">
+            <time class="published dt-published" datetime="2016-05-01T08:00:00+08:00" itemprop="datePublished" title="2016-05-01 08:00">2016-05-01 08:00</time></a>
+            </p>
+                </div>
+            </header><div class="e-content entry-content">
+                    <p>本讲座详细的讲了windows10的安装合设置，还没有升级windows10的用户，合刚刚接触windows10的用户可以下来听听，下面是下载地址，感谢小康老师的讲解。
+<a href="http://pan.baidu.com/share/link?shareid=2519492868&amp;uk=3358895467">百度盘下载小康讲windows10安装与设置.mp3</a>
+<a href="http://www.zxrjy.net/jc/490.html">知行软件园在线试听 小康讲Windows10安装与设置</a></p>
+                </div>
+            </article><article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title"><a href="posts/441/" class="u-url">QQ输入框补丁1.3来啦，qq打字有困难的小伙伴请进</a></h1>
+                <div class="metadata">
+                    <p class="byline author vcard"><span class="byline-name fn" itemprop="author">
+                        <a href="authors/da-jiang-you/">打酱油</a>
+                    </span></p>
+            <p class="dateline">
+            <a href="posts/441/" rel="bookmark">
+            <time class="published dt-published" datetime="2016-04-26T11:16:00+08:00" itemprop="datePublished" title="2016-04-26 11:16">2016-04-26 11:16</time></a>
+            </p>
+                </div>
+            </header><div class="e-content entry-content">
+                    <p>插件名称：QQ输入框补丁
+插件作者：永远的星光
+插件版本：1.3
+好吧，是不是有很多小伙伴在输入完中文之后，想用光标读编辑框内的文字的时候发现，读不了了，最后只能shift+tab重新手动移动焦点才能又重新读起来，这其实带来了巨大的麻烦。那么，请装这个补丁吧。
+<a accesskey="x" href="http://12355939.d.yyupload.com/down/12355939/nvdacn/addons/QQ%E8%BE%93%E5%85%A5%E6%A1%86%E8%A1%A5%E4%B8%811.3.rar">本地下载1：qq输入框补丁1.3</a>
+<a accesskey="x" href="http://www.nvdacn.com/189.php/7BBNz2zi2iY3.nvda-addon">本地下载2：QQ输入框补丁1.3</a>
+<a accesskey="x" href="https://eyun.baidu.com/s/3nvuavFj">百度盘备用下载：QQ输入框补丁（提取密码：EWyr）</a></p>
+                </div>
+            </article><article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title"><a href="posts/440/" class="u-url">NVDACon_2016_十周年纪念版-mp3完整录音下载</a></h1>
+                <div class="metadata">
+                    <p class="byline author vcard"><span class="byline-name fn" itemprop="author">
+                        <a href="authors/xing-kong/">星空</a>
+                    </span></p>
+            <p class="dateline">
+            <a href="posts/440/" rel="bookmark">
+            <time class="published dt-published" datetime="2016-04-23T15:49:00+08:00" itemprop="datePublished" title="2016-04-23 15:49">2016-04-23 15:49</time></a>
+            </p>
+                </div>
+            </header><div class="e-content entry-content">
+                    <div>
+<p>NVDACon_2016_十周年纪念版大会已圆满结束,下面转发官方页面所有录音.
+<a href="http://nvda-kr.org/files/NVDACon_2016_Keynote.zip">NVDACon_2016_Keynote.zip下载</a>
+<a href="http://nvda-kr.org/files/NVDACon_2016_Keynote%20(complete).mp3">NVDACon_2016_Keynote (complete).mp3下载</a>
+<a href="http://nvda-kr.org/files/NVDACon_2016_Keynote%20(Community%20Letter).mp3">NVDACon_2016_Keynote (Community Letter).mp3下载</a>
+<a href="http://nvda-kr.org/files/NVDACon_2016_Keynote%20(session).mp3">NVDACon_2016_Keynote (session).mp3下载
+</a>
+<a href="http://nvda-kr.org/files/NVDACon_2016_DictationBridge.mp3">NVDACon_2016_DictationBridge.mp3下载</a>
+<a href="http://nvda-kr.org/files/NVDACon_2016_F123%20Access.mp3">NVDACon_2016_F123 Access.mp3下载</a>
+<a href="http://nvda-kr.org/files/NVDACon_2016_Employment.mp3">NVDACon_2016_Employment.mp3下载</a>
+<a href="http://nvda-kr.org/files/NVDACon_2016_Add-ons%20Festival%20(Joseph%20Lee).mp3">NVDACon_2016_Add-ons Festival (Joseph Lee).mp3下载</a>
+<a href="http://nvda-kr.org/files/NVDACon_2016_Add-ons%20Festival%20(Derek%20Riemer).mp3">NVDACon_2016_Add-ons Festival (Derek Riemer).mp3下载</a></p>
+<p><a href="http://nvda-kr.org/files/NVDACon_2016_NVDA%20Interactive%20Lab.mp3">NVDACon_2016_Add-ons Festival (Derek Riemer).mp3下载</a></p>
+<p><a href="http://nvda-kr.org/files/NVDACon_2016_NVDA%20Interactive%20Lab.mp3">NVDACon_2016_NVDA Interactive Lab.mp3下载</a></p>
+<p><a href="http://nvda-kr.org/files/NVDACon_2016_NVDA%20101.mp3">NVDACon_2016_NVDA 101.mp3下载
+</a>
+<a href="http://nvda-kr.org/files/NVDACon_2016_Math.mp3">NVDACon_2016_Math.mp3下载</a>
+<a href="http://nvda-kr.org/files/NVDACon_2016_Communities%20and%20Braille.mp3">NVDACon_2016_Communities and Braille.mp3下载</a>
+<a href="http://nvda-kr.org/files/NVDASR%20movement%20promo.mp3">NVDASR movement promo.mp3下载
+    </a>
+<a href="http://nvda-kr.org/files/NVDACon_2016_Closing%20Forum.mp3">NVDACon_2016_Closing Forum.mp3下载</a></p>
+<p><a href="http://nvda-kr.org/files/NVDACon_2016.zip">NVDACon_2016完整版.zip下载</a>
+就这些了,因为英语不怎么好,所以就不写简介了,想知道详细的简介可以去网站友情链接的NVDA大会主页查看.</p>
+</div>
+                </div>
+            </article><article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title"><a href="posts/436/" class="u-url">农历播报插件 1.1</a></h1>
+                <div class="metadata">
+                    <p class="byline author vcard"><span class="byline-name fn" itemprop="author">
+                        <a href="authors/jiang-you/">酱油</a>
+                    </span></p>
+            <p class="dateline">
+            <a href="posts/436/" rel="bookmark">
+            <time class="published dt-published" datetime="2016-03-24T22:12:00+08:00" itemprop="datePublished" title="2016-03-24 22:12">2016-03-24 22:12</time></a>
+            </p>
+                </div>
+            </header><div class="e-content entry-content">
+                    <p>插件名称： 农历播报
+版本： 1.1
+作者： 沉浮
+安装此插件可以让NVDA播报农历日期，并且支持公农历转换。
+快捷键：
+NVDA+F11： 播报农历日期；
+双击 NVDA+F11： 打开公农历转换对话框。
+公农历转换输入格式为“yyyy-m-d”，例如“2016-3-24”。
+<a accesskey="x" href="http://12355939.d.yyupload.com/down/12355939/nvdacn/addons/%E5%86%9C%E5%8E%86%E6%92%AD%E6%8A%A5_1.1.rar">本地下载1：农历播报插件 1.1</a>
+<a accesskey="x" href="https://eyun.baidu.com/s/3hsNWDTi">百度盘备用下载：农历播报插件（提取密码：WBuP）</a></p>
+                </div>
+            </article><article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title"><a href="posts/435/" class="u-url">windows 10 应用程序重点支持插件</a></h1>
+                <div class="metadata">
+                    <p class="byline author vcard"><span class="byline-name fn" itemprop="author">
+                        <a href="authors/jiang-you/">酱油</a>
+                    </span></p>
+            <p class="dateline">
+            <a href="posts/435/" rel="bookmark">
+            <time class="published dt-published" datetime="2016-03-24T18:30:00+08:00" itemprop="datePublished" title="2016-03-24 18:30">2016-03-24 18:30</time></a>
+            </p>
+                </div>
+            </header><div class="e-content entry-content">
+                    <p>插件名称: Windows 10 App Essentials 
+作者: Joseph Lee 
+此插件可加强 NVDA 对 Win10 通用应用的可访问性，目前针对设置、计算器、Cortana、开始菜单、时钟和闹钟、TeamViewer等应用做了专门处理。
+如要了解详情以及获取最新更新，请访问<a href="http://addons.nvda-project.org/addons/wintenApps.en.html">Windows 10 App Essentials 插件页面</a>
+<a accesskey="x" href="http://addons.nvda-project.org/files/get.php?file=w10">下载 wintenApps 官方同步更新</a>
+<a accesskey="x" href="http://www.nvdacn.com/189.php/BZZnUv6RZ36v.nvda-addon">本地下载 Windows 10应用程序重点支持 17.11</a></p>
+                </div>
+            </article><article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title"><a href="posts/434/" class="u-url">USB监控</a></h1>
+                <div class="metadata">
+                    <p class="byline author vcard"><span class="byline-name fn" itemprop="author">
+                        <a href="authors/jiang-you/">酱油</a>
+                    </span></p>
+            <p class="dateline">
+            <a href="posts/434/" rel="bookmark">
+            <time class="published dt-published" datetime="2016-03-24T18:11:00+08:00" itemprop="datePublished" title="2016-03-24 18:11">2016-03-24 18:11</time></a>
+            </p>
+                </div>
+            </header><div class="e-content entry-content">
+                    <p>插件名称： 监视USB插拔状态
+插件版本： 1.0
+插件作者： 沈广荣
+此插件安装后即可监控USB设备插拔状态。
+<a accesskey="x" href="http://12355939.d.yyupload.com/down/12355939/nvdacn/addons/USB%E7%9B%91%E6%8E%A7.rar">本地下载1：USB监控</a>
+<a accesskey="x" href="http://www.nvdacn.com/189.php/Vj2EBfNRJvQr.rar">本地下载2：USB监控</a>
+<a accesskey="x" href="https://eyun.baidu.com/s/3pL73vWv">百度盘备用下载：USB监控（提取密码：HcLP）</a></p>
+                </div>
+            </article>
+</div>
+    
+        <ul class="pager postindexpager clearfix">
+<li class="previous"><a href="index-7.html" rel="prev">较新的文章</a></li>
+            <li class="next"><a href="index-5.html" rel="next">以前的文章</a></li>
+        </ul>
+<!--End of body content--><footer id="footer">
+            Contents © 2019         <a href="mailto:dingpengyu06@gmail.com">nvdacn</a> - Powered by         <a href="https://getnikola.com" rel="nofollow">Nikola</a>         
+            
+        </footer>
+</div>
+</div>
+
+
+        <script src="assets/js/all-nocdn.js"></script><!-- fancy dates --><script>
+    moment.locale("zh-cn");
+    fancydates(0, "YYYY-MM-DD HH:mm");
+    </script><!-- end fancy dates --><script>
+    baguetteBox.run('div#content', {
+        ignoreClass: 'islink',
+        captions: function(element) {
+            return element.getElementsByTagName('img')[0].alt;
+    }});
+    </script>
+</body>
+</html>

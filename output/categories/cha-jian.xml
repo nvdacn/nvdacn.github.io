@@ -1,0 +1,378 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>NVDA中文站 (关于文章 插件)</title><link>https://nvdacn.github.io/</link><description></description><atom:link href="https://nvdacn.github.io/categories/cha-jian.xml" rel="self" type="application/rss+xml"></atom:link><language>zh_cn</language><copyright>Contents © 2019 &lt;a href="mailto:dingpengyu06@gmail.com"&gt;nvdacn&lt;/a&gt; </copyright><lastBuildDate>Tue, 15 Jan 2019 05:25:39 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>objPad 18.12 汉化版</title><link>https://nvdacn.github.io/posts/objpad/</link><dc:creator>酱油</dc:creator><description>&lt;div&gt;&lt;p&gt;ObjPad&lt;/p&gt;
+&lt;p&gt;作者：Joseph Lee，Cleverson Uliana和其他人
+汉化：目光&lt;/p&gt;
+&lt;p&gt;此附加组件提供快速命令来管理屏幕上的对象，包括导航和其他可能性。&lt;/p&gt;
+&lt;p&gt;命令&lt;/p&gt;
+&lt;p&gt;CTRL+ NVDA + TAB：通过箭头键模式的步骤（详见下文）。
+箭头键模式&lt;/p&gt;
+&lt;p&gt;该插件提供了四种使用箭头键的方法：&lt;/p&gt;
+&lt;p&gt;经典（或正常模式）：使用箭头键移动光标。
+对象导航：使用箭头键移动到下一个/上一个/父/第一个子对象。
+网页模式：使用箭头键循环遍历元素并在它们之间移动。
+扫描模式：使用箭头键移动屏幕上的对象，无论层次结构如何。&lt;/p&gt;
+&lt;p&gt;以下命令可用于将箭头键设置为对象导航：&lt;/p&gt;
+&lt;p&gt;右箭头：下一个对象。
+左箭头：上一个对象。
+向上箭头：父对象。
+向下箭头：第一个子对象。
+空格：激活。&lt;/p&gt;
+&lt;p&gt;网页模式激活：（元素是按照对象，链接，表单字段，标题，框架，表，列表，路标，来移动）&lt;/p&gt;
+&lt;p&gt;右箭头：下一个元素。
+左箭头：上一个元素。
+向上箭头：上一个元素类型。
+向下箭头：下一个元素类型。
+空格：激活。&lt;/p&gt;
+&lt;p&gt;激活扫描模式：&lt;/p&gt;
+&lt;p&gt;向下箭头：下一个对象。
+向上箭头：上一个对象。
+右箭头：查看下一个字符。
+左箭头：上一个字符。
+空格：激活。&lt;/p&gt;
+&lt;p&gt;版本16.12（2016.11.27）&lt;/p&gt;
+&lt;p&gt;Object Pad（通常缩写为ObjPad）16.12版现在可用。主要增强功能包括引入网页模式以在网页元素之间导航。进入此模式后，按向上或向下箭头更改元素，向左或向右箭头在元素之间导航。请注意，这不会取代首字母导航，或者在与表单交互时不需要使用焦点模式。
+添加了网页模式。（网页模式在Internet Explorer，Firefox，Chrome，Microsoft Edge，Microsoft Word，PDF和其他可以使用浏览模式的地方工作。）&lt;/p&gt;
+&lt;p&gt;版本16.10（2016.09.29）&lt;/p&gt;
+&lt;p&gt;初始稳定版本。&lt;/p&gt;
+&lt;p&gt;翻译整理：目光&lt;/p&gt;
+&lt;p&gt;&lt;a accesskey="x" href="https://github.com/josephsl/objPad/releases/download/18.12/objPad-18.12.nvda-addon"&gt;Github下载 ObjPad 18.12 汉化版&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description><category>光标</category><category>插件</category><category>浏览</category><category>焦点</category><category>笔记本</category><category>键盘</category><guid>https://nvdacn.github.io/posts/objpad/</guid><pubDate>Sun, 12 Nov 2017 09:44:00 GMT</pubDate></item><item><title>焦点突出显示 Focus Highlight</title><link>https://nvdacn.github.io/posts/749/</link><dc:creator>酱油</dc:creator><description>&lt;div&gt;&lt;p&gt;焦点突出显示 Focus Highlight&lt;/p&gt;
+&lt;p&gt;作者：Takuy​​a Nishimoto
+汉化：目光&lt;/p&gt;
+&lt;p&gt;通过绘制一个彩色的矩形，这个插件可以让弱视用户，有视力的教育工作者或开发者跟踪nvda导航器对象的位置和焦点对象/控件。&lt;/p&gt;
+&lt;p&gt;这个插件使用以下颜色：&lt;/p&gt;
+&lt;p&gt;绿色的锯齿线，以指示导航对象。
+红色的细长矩形，以指示聚焦的对象/控件。
+红色厚矩形，用于指示导航器对象和聚焦对象何时重叠。
+蓝色的粗斜长方形，表示NVDA处于对焦模式，即按键类型传递给控件。
+要禁用对象跟踪，请卸载插件。&lt;/p&gt;
+&lt;p&gt;更改为4.0&lt;/p&gt;
+&lt;p&gt;如果当前应用程序处于睡眠模式，请隐藏矩形。
+3.0的变化&lt;/p&gt;
+&lt;p&gt;修复了Windows任务管理器的问题。
+能够指示对焦模式。
+2.1的变化&lt;/p&gt;
+&lt;p&gt;新的和更新的翻译。
+2.0的变化&lt;/p&gt;
+&lt;p&gt;附加组件帮助可从附加组件管理器获得。
+更改为1.1&lt;/p&gt;
+&lt;p&gt;将导航对象矩形更改为锯齿线。
+修复了“重新加载插件”的问题。
+1.0的变化&lt;/p&gt;
+&lt;p&gt;在Internet Explorer 10和Windows 8的Skype中，修复导航器对象的问题。
+初始版本。&lt;/p&gt;
+&lt;p&gt;&lt;a accesskey="x" href="http://www.nvdacn.com/189.php/UnyaInfaI7ze.nvda-addon"&gt;本地下载 焦点突出显示 Focus Highlight&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description><category>低视力</category><category>光标</category><category>插件</category><guid>https://nvdacn.github.io/posts/749/</guid><pubDate>Sun, 12 Nov 2017 09:34:00 GMT</pubDate></item><item><title>微信 UWP 插件 V1.51</title><link>https://nvdacn.github.io/posts/WeChatForWin10Addon/</link><dc:creator>酱油</dc:creator><description>&lt;div&gt;&lt;p&gt;感谢沉浮老师为我们带来这款“微信For Win10”插件。有了此插件，我们就可以使用主键盘轻松操作微信，不需要再使用复杂的对象浏览了。插件还增加了消息自动朗读、链接和文件消息识别等功能。具体请看&lt;/p&gt;
+&lt;h4&gt;微信插件v1.51升级日志&lt;/h4&gt;
+
+&lt;p&gt;1、增加 "esc"一键隐藏微信主窗口。按alt+t或任务栏快捷方式可切回。&lt;/p&gt;
+&lt;p&gt;2、增加"f7" 一键打开微信临时目录，方便提取播放的音视频文件。&lt;/p&gt;
+&lt;p&gt;3、增加control+h打开插件帮助文档。&lt;/p&gt;
+&lt;p&gt;4、优化通讯录分组的朗读。&lt;/p&gt;
+&lt;p&gt;5、修复产生报错音效的bug。&lt;/p&gt;
+&lt;p&gt;6、增加对微信主窗口控制，让其处于激活状态时保持最大画，以方便扫码等操作。&lt;/p&gt;
+&lt;h4&gt;微信(uwp)插件使用条件&lt;/h4&gt;
+
+&lt;p&gt;请在win 10 应用商店中搜索"微信"，结果列表中会出现两个结果，第一个是“微信 for windows 10”，第二个是“微信(uwp)”，本插件只支持“微信(uwp)”，不支持“微信 for windows 10”，请不要下错版本。&lt;/p&gt;
+&lt;h4&gt;热键说明&lt;/h4&gt;
+
+&lt;p&gt;上下光标：直接浏览会话列表和消息列表内容。&lt;/p&gt;
+&lt;p&gt;左右光标：在搜索框，会话列表，消息列表和发送消息编辑框之间切换。&lt;/p&gt;
+&lt;p&gt;小键盘加号和减号： 顺序浏览屏幕各项目&lt;/p&gt;
+&lt;p&gt;回车或空格激活当前项目，删除键可直接删除当前项，也可按application键探出操作菜单。&lt;/p&gt;
+&lt;p&gt;f1:发送消息（在回车键失效后可用。.&lt;/p&gt;
+&lt;p&gt;f2：读出当前会话标题&lt;/p&gt;
+&lt;p&gt;f3：切换编辑和浏览模式&lt;/p&gt;
+&lt;p&gt;f4：控制是否自动朗读最新消息&lt;/p&gt;
+&lt;p&gt;f5：连续朗读当前屏消息&lt;/p&gt;
+&lt;p&gt;f7：打开微信临时目录&lt;/p&gt;
+&lt;p&gt;f8：读表情消息&lt;/p&gt;
+&lt;p&gt;control+h：打开帮助文档&lt;/p&gt;
+&lt;p&gt;control+g：打开剪切板内链接&lt;/p&gt;
+&lt;p&gt;&lt;a accesskey="x" href="http://www.nvdacn.com/189.php/3MnIjubayqqq.nvda-addon"&gt;下载 微信 UWP 插件 v1.51&lt;/a&gt;
+&lt;a accesskey="x" href="http://www.nvdacn.com/189.php/JfIFzmb2Inuq.mp3"&gt;下载 微信 UWP 插件演示&lt;/a&gt;
+&lt;a accesskey="x" href="https://www.microsoft.com/store/productId/9NRJ2W1GNL09"&gt;下载 微信(UWP)&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description><category>win10</category><category>微信</category><category>插件</category><guid>https://nvdacn.github.io/posts/WeChatForWin10Addon/</guid><pubDate>Mon, 18 Sep 2017 09:49:00 GMT</pubDate></item><item><title>翻译插件更新 - 全能翻译 3.0.0</title><link>https://nvdacn.github.io/posts/ricky/</link><dc:creator>酱油</dc:creator><description>&lt;div&gt;&lt;p&gt;翻译插件说明&lt;/p&gt;
+&lt;p&gt;该插件主要用于满足开发人员和经常使用翻译功能以及学习英语的nvda用户开发。主要功能分为三部分。在线翻译、本地生词本和离线词典三大块功能。
+1  在线翻译，该插件在线翻译可支持百度翻译、谷歌翻译、京山词霸、海词在线等翻译接口。其中，百度翻译和谷歌翻译主要用于长文本内容的翻译。京山词霸和海词在线主要用于单词短语的翻译。并且插件特别给长文本翻译和单词短语翻译分别设定调用不同的翻译引擎。长文本翻译默认使用百度翻译，单词短语翻译默认使用京山词霸翻译。并且都有独立的快捷键进行控制。用户也可自行到插件设置中进行修改。
+2  发音朗读工能。该翻译插件为了满足英语学习爱好者的需要，特别开发了发音朗读工能。目前除谷歌翻译外，其他的翻译引擎都支持发音朗读工能。其中百度翻译还支持中文发音。京山词霸和海词在线只支持英文发音朗读。用户可按下shift加Alt加n来听取发音朗读。用于朗读最后的翻译结果。
+3  智能生词本功能。翻译插件特别开发了智能生词本功能。插件默认有每日必备，并且会提醒用户这个单词下一次的背诵时间。同时也可以自己新建生词本。删除生词本。也可以把当前查询的单词直接添加到生词本里面。是英语学习爱好者的必备功能。
+4  离线词典工能。这是该插件的重磅功能。该插件完美支持了林格斯和mdict2.0两种离线词典。其中，功能最强大，词典最完善的当属林格斯词典。具体的离线词典，用户需自己去网上下载回来。然后放到翻译插件指定的离线词典目录下，就可以直接调用了。具体的离线词典目露，请到插件设置中查看。另外需要说明一点。因为林格斯词典体积较大，需要进行解压转换的过程。因此，如果是第一次使用林格斯词典。当把离线词典放到指定词典目录后，插件第一次加载需要有个解压转换的过程。该过程根据词典的大小，可能需要几分钟或者数十分钟。在词典解压过程中，可能会出现某些词语暂时查询不到的情况。等词典完全解压完毕，就可以查询所有词语了。在词典解压过程中，不影响用户查询单词。
+特别说明：  插件设置中，特别加入了代理设置功能。该功能主要是针对谷歌翻译而设置。因为如今谷歌翻译.cn已经回归中国。因此，使用谷歌翻译已经无需科学上网，可以直接调用google.cn &lt;/p&gt;
+&lt;p&gt;翻译接口使用。另外关于谷歌翻译引擎下的自动识别语言的问题。因为Google的自动语言识别是根据请求者的提交地区来识别的。因此因为我们是中国地区发起翻译请求，提交翻译内容，所以谷歌翻译默认值执行英译中，而不会执行中译英的功能。需要用谷歌翻译翻译中译英的，手动在插件设置中，设置谷歌的翻译语言和目标语言即可正常翻译。播放发音功能，需要系统Windowsmediaplayer的支持。因此，如果系统上没有安装Windowsmediaplayer的，则无法使用此功能。首次使用发音功能，系统会弹出Windowsmediaplayer的一个设置向导，根据提示选择使用系统推荐设置，然后点击完成，就可以正常使用插件的发音功能了。该插件的所有计划功能都已经开发完毕。插件版权归NVDA中文站所有。
+该插件仅用于拓展nvda的翻译功能，任何用户不得用于商业用途。请自觉遵守。开发人员将负责插件后期的bug维护。不包含新需求的功能开发。&lt;/p&gt;
+&lt;p&gt;热键说明&lt;/p&gt;
+&lt;p&gt;上一个生词本：ctrl+shift+q 
+下一个生词本：ctrl+shift+e 
+删除单词本：ctrl+shift+x 
+增加单词权重：ctrl+shift+f 
+插件配置编辑：shift+alt+e 
+播放翻译语音：shift+alt+n 
+新建生词本：ctrl+shift+z 
+显示下一个生词：ctrl+shift+d 
+显示单词详情：ctrl+shift+s 
+显示生词本：ctrl+shift+w 
+显示翻译详情：shift+alt+r 
+朗读上次翻译结果：shift+alt+m 
+生词本添加翻译单词：shift+alt+回车 
+翻译剪切板：shift+alt+s 
+翻译剪切板2：shift+alt+a 
+翻译剪切板选中的单词：shift+alt+u 
+翻译缓冲区：shift+alt+w 
+翻译缓冲区2：shift+alt+q 
+翻译缓冲区选中单词：shift+alt+f 
+选择上一个生词：ctrl+shift+a 
+选择剪切板上个单词：shift+alt+j 
+选择剪切板下个单词：shift+alt+l 
+选择缓冲区上个单词：shift+alt+i 
+选择缓冲区下个单词：shift+alt+k 
+重置单词权重：ctrl+shift+r &lt;/p&gt;
+&lt;p&gt;更新日志&lt;/p&gt;
+&lt;p&gt;3.0.0 build2
+1  解决百度翻译无法中译英的问题；
+2  解决百度翻译发音功能无法使用的问题
+3.0.0 build1
+1  解决百度翻译无法使用的问题。需要注册个人百度翻译秘钥方可使用。
+秘钥注册地址：
+http://api.fanyi.baidu.com/api/trans/product/index
+2  解决海词在线无法获取到雌性的问题。&lt;/p&gt;
+&lt;p&gt;2.0.10
+修复翻译详情界面无法用tab和光标操作的问题。&lt;/p&gt;
+&lt;p&gt;2.0.9
+解决在新建生词本对话框无法直接按tab操作的问题。&lt;/p&gt;
+&lt;p&gt;2.0.8
+1  解决剪贴板单词不能自动刷新的问题，
+2  解决生词本窗口不能按tab访问控件焦点的问题；&lt;/p&gt;
+&lt;p&gt;2.0.6
+1  修复了Ctrl加shift加s在输入手势中看不到的问题。
+2  修复了在输入手势中删除插件快捷键，快捷键仍然有效的问题。
+3  修复了插件设置窗口，不能再前台直接操作的问题。
+4  修复了长时间使用播放发音功能，会导致插件卡死的问题。
+5  修复了播放发音功能，提交语言类型错误的问题。
+6  修复了翻译剪贴板单词和缓冲区选中单词，调用单词引擎而不是在调用长文本翻译引擎的问题。&lt;/p&gt;
+&lt;p&gt;特别鸣谢
+感谢程序员老师saber的辛苦开发；感谢本次活动的组织者飞鹰、雪岭冰龙、永远的星光和参与插件测试的各位小伙伴；感谢为这次插件开发捐款的朋友们。
+活动的发起过程以及捐款明细可以查看下面的链接。
+&lt;a href="https://www.nvdacn.com/archives/3382.html"&gt;活动发起过程&lt;/a&gt;
+《&lt;a href="https://www.nvdacn.com/archives/3732.html"&gt;捐款名单&lt;/a&gt;
+&lt;a accesskey="x" href="http://www.nvdacn.com/189.php/673EvmnmAnQb.rar"&gt;本地下载 全能翻译 3.0.0&lt;/a&gt;
+&lt;a accesskey="x" href="https://cloud.189.cn/t/673EvmnmAnQb"&gt;网盘备用下载 全能翻译 3.0.0&lt;/a&gt;
+&lt;a href="http://www.lingoes.cn/zh/dictionary/index.html"&gt;灵格斯词库下载页面&lt;/a&gt;
+&lt;a href="http://www.mdict.cn/wp/?page_id=5227&amp;amp;lang=zh"&gt;MDict词库下载页面&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description><category>插件</category><category>翻译</category><category>词典</category><guid>https://nvdacn.github.io/posts/ricky/</guid><pubDate>Thu, 20 Jul 2017 05:01:00 GMT</pubDate></item><item><title>服务器列表更新，NVDA 远程访问 2.0大版本上线远程盲文支持</title><link>https://nvdacn.github.io/posts/nr/</link><dc:creator>酱油</dc:creator><description>&lt;div&gt;&lt;h3&gt;2.0更新日志 #&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;支持远程盲文&lt;/li&gt;
+&lt;li&gt;支持nvdaremote:// 链接（可在菜单内选择拷贝链接获取并分享）&lt;/li&gt;
+&lt;li&gt;居中对话框，以适应 NVDA的界面风格&lt;/li&gt;
+&lt;li&gt;恢复端口检测域名 portcheck.nvdaremote.com&lt;/li&gt;
+&lt;li&gt;支持无人值守的自动服务器连接&lt;/li&gt;
+&lt;li&gt;更新远程协议到2.0，在每一条发送的消息中都加入来源信息&lt;/li&gt;
+&lt;li&gt;整理代码，修订文档
+遇到了电脑问题不知道怎么办？想找人帮忙身边朋友都不在？路程太远帮忙太困难？难道就没办法了？当然不是。 
+NVDA远程访问插件可以让同时装了NVDA和NVDA远程插件的两台电脑互相进行远程协助，插件只在电脑之间传输文字命令，因此即使通过NVDA官方的服务器进行连接，也能保证连接的稳定性。然而毕竟远隔万里，能有自己的服务器自然是更好的，于是服务器就这么有了。
+服务器1（来自&lt;a href="http://apk.qt06.com"&gt;中国安卓盲人爱好者联盟&lt;/a&gt;）：nr.qt.hk
+服务器2（来自&lt;a href="http://www.xytk.cn"&gt;新翼天空&lt;/a&gt;）：nr.xytk.cn
+服务器3（来自&lt;a href="https://www.chenyao.pro/nrrs"&gt;陈瑶NVDA中继服务&lt;/a&gt;）：nr.chenyao.pro
+服务器4（来自&lt;a href="http://www.zxrjy.net"&gt;知行软件园&lt;/a&gt;）：nr.zxrjy.net&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;具体来讲，就是控制方将键盘命令发送到被控方，被控方则将NVDA浏览到的内容以文字指令发送回控制方，控制方的NVDA远程插件就会调用NVDA的语音合成器读出被控方电脑上NVDA所浏览到的内容。
+&lt;/p&gt;&lt;h3&gt;【使用方法】&lt;/h3&gt;
+安装NVDA远程访问插件后，在NVDA菜单的工具子菜单中会找到远程子菜单，下面依次介绍每个菜单的作用。
+&lt;h4&gt;连接：&lt;/h4&gt;
+执行“连接”菜单命令后，会弹出连接对话框，对话框内用tab键浏览各选项。
+首先让你选择你的电脑是客户端还是服务器，一般用户请选择“客户端”，如果选择“服务器”进行两台电脑直接连接，需要进行一些设置，后面再说明。
+下一项选项是选择控制另一台电脑还是让这台电脑被控制，根据你要远程协助别人还是接受别人远程帮助来选择对应的单选项。协助方和被协助方必须正确选择才能互相连接。
+接下来“主机”一栏填写NVDA远程中间服务器地址。控制和被控方必须填写相同的服务器地址。
+然后是设置一个密钥，可以手动填写在“密钥”栏，也可以点击“创建密钥”按钮自动生成密钥，双方必须填写相同的密钥。控制和被控方通过此密钥配对。
+最后点击确认，就会连接到远程服务器”，并且听到一个声音提示。当对方电脑也连接到远程服务器后，还会听到一个提示音。
+成功配对后，控制方通过按F11来切换发送键盘命令和不发送键盘命令，也就是控制和不控制对方电脑。
+&lt;h4&gt;断开：&lt;/h4&gt;
+执行“断开”菜单，断开与远程服务器的连接，结束远程协助。
+&lt;h4&gt;静音远程：&lt;/h4&gt;
+在与他人远程时，控制方会听到被控方NVDA浏览的内容，即使是你没有发送键盘命令，这样会对控制方的操作造成干扰，执行“静音远程”就会停止朗读对方NVDA浏览到的项目。此功能可在NVDA输入手势对话框中的NVDA 远程分之下找到
+“静音或取消静音来自远程计算机的语音”
+设置快捷键。
+&lt;h4&gt;发送剪贴板：&lt;/h4&gt;
+执行“发送剪贴板”菜单，可以将控制方的剪贴板中的文本发送到被控方。注意，只能发送文本不能发送文件。
+&lt;h4&gt;选项：&lt;/h4&gt;
+执行“选项”菜单可以打开NVDA远程插件的选项对话框。
+选项中有一项叫做“启动时自动连接到控制服务器”的选项，选中该复选框后，对话框中会出现一些选项。
+首先是一组单选按钮，选中“使用远程控制服务器”单选按钮，在NVDA启动时，本机将自动作为被控方连接。
+选中“主控服务器”单选按钮，则在NVDA启动时作为主控方进行自动连接。
+下面是填写主机地址和密钥的编辑框，如果作为主控方连接，还会出现填写端口的编辑框，默认端口6837请勿随意修改。
+配置好启动时自动连接后，NVDA启动后就会连接到远程服务器。不建议配置自动连接，这样既给自己的电脑带来风险又给架设的远程服务器增加负担。
+&lt;h4&gt;发送CTRL+Alt+Del命令：&lt;/h4&gt;
+在远程控制他人电脑时，本机按下CTRL+Alt+del就会进入本机的安全桌面，这样就无法直接通过键盘将CTRL+Alt+Del命令发送到被控方，这时如果正需要让对方电脑进入远程桌面，则需要执行“
+发送CTRL+Alt+Del命令”菜单。
+&lt;h3&gt;直接连接&lt;/h3&gt;
+在连接对话框中的第一组单选按钮选择“服务器”，之后的配置和通过中间服务器进行远程类似，
+此时主机地址变为外部IP，需要点击“获取外部IP”按钮来获得你的外网IP地址，对方也要填写这个IP地址。
+点击“获取外部IP地址”后，如果提示端口不可用，就需要去设置路由器了。
+以TP-Link路由器为例，在路由器管理页面，依次进入“转发规则”-&amp;gt;“DMZ主机”,
+在DMZ主机设置页面选中启用单选按钮，在DMZ主机IP地址： 一栏填写当前所用电脑的内网IP地址，
+内网IP地址可在路由器管理页的DHCP服务器/客户端列表页中查看到，
+也可以在命令行通过ipconfig命令查看。
+如果端口可用但获取不到本机外部IP，可以在路由器或者其他IP地址查询网站等方式查看本机外网IP。然后将IP地址告诉对方，也可正常连接。
+之后是填写端口和秘钥，端口默认6837，请勿随意修改。
+接下来的操作过程就跟通过中间服务器连接一样了。
+&lt;p&gt;NVDA远程项目官网&lt;a href="http://nvdaremote.com"&gt;nvdaremote.com&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a accesskey="x" href="https://nvdaremote.com/remote-2.0.nvda-addon"&gt;远程下载：NVDA远程 2.0&lt;/a&gt;
+&lt;a accesskey="x" href="http://www.nvdacn.com/189.php/6Njey2ryIfim.nvda-addon"&gt;本地下载：NVDA远程 2.0&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description><category>协助</category><category>插件</category><category>远程</category><guid>https://nvdacn.github.io/posts/nr/</guid><pubDate>Wed, 15 Feb 2017 14:38:00 GMT</pubDate></item><item><title>资源监控器 resourceMonitor 17.02</title><link>https://nvdacn.github.io/posts/resourceMonitor/</link><dc:creator>酱油</dc:creator><description>&lt;div&gt;&lt;p&gt;资源监控器
+作者： Alex
+汉化：雪岭冰龙
+  此插件可以让用户通过 NVDA 听取系统中各种资源的使用情况，例如CPU占用、内存使用等等。
+插件默认热键：
+NVDA + Shift + E 概述CPU和内存使用情况；
+NVDA + Shift + 1  描述每个CPU核心负载和平均负载；
+NVDA + Shift + 2  描述物理内存和虚拟内存使用情况；
+NVDA + Shift + 3  描述硬盘每个分区的容量使用情况；
+NVDA + Shift + 4  报读电池电量和充电状态；
+NVDA + Shift + 6  报读当前系统版本信息。&lt;/p&gt;
+&lt;p&gt;&lt;a accesskey="x" href="http://addons.nvda-project.org/files/get.php?file=rm"&gt;资源监控器官方同步更新下载&lt;/a&gt;
+&lt;a accesskey="x" href="http://www.zd.hk/disk/?id=eIrmYbvai6re"&gt;本地下载：资源监控器 17.02&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description><category>CPU</category><category>内存</category><category>插件</category><category>资源监控器</category><guid>https://nvdacn.github.io/posts/resourceMonitor/</guid><pubDate>Thu, 02 Feb 2017 14:47:12 GMT</pubDate></item><item><title>电脑新手的好帮手——Control Usage Assistant 控件用法助理 2.4</title><link>https://nvdacn.github.io/posts/cua/</link><dc:creator>酱油</dc:creator><description>&lt;p&gt;Control Usage Assistant
+作者： Joseph Lee
+使用此插件来查看如何与焦点所在的控件交互。按下“NVDA加H”获取一个与此控件交互的简短的帮助信息。如编辑框、复选框等。
+不知道什么时候发布了2.4版，我也悄悄把他汉化了一下。
+之前的版本记得“Arrow”译为箭头（本来就是哈），
+为了更接地气，我吧它译为“光标”,哈哈，好多老忙都这么称呼，不是吗？
+汉化： 漫辰
+E-mail： manchen_0528@outlook.com
+&lt;a accesskey="x" href="http://www.nvdacn.com/189.php/aqUZBfzqUv63"&gt;本地下载：控件用法助理&lt;/a&gt;&lt;/p&gt;</description><category>助理</category><category>帮助</category><category>控件</category><category>插件</category><category>操作</category><guid>https://nvdacn.github.io/posts/cua/</guid><pubDate>Thu, 02 Feb 2017 14:39:00 GMT</pubDate></item><item><title>推荐一些方便日常使用的 Firefox 插件</title><link>https://nvdacn.github.io/posts/Firefox/</link><dc:creator>酱油</dc:creator><description>&lt;div&gt;&lt;p&gt;NVDA 对于 &lt;a href="ftp://ftp.mozilla.org/pub/firefox/releases/"&gt;Firefox&lt;/a&gt; 的支持非常好，在 Firefox 上的响应速度也很快，现在已经有很多 NVDA 用户开始使用 Firefox。下面就推荐一些方便我们日常使用 Firefox 的扩展。
+&lt;/p&gt;&lt;h4&gt;Adblock Plus&lt;/h4&gt;
+被广告弄得搓火吗？被跟随鼠标的标语弄得烦心吗？被横幅弄得感到厌恶吗？立即安装 Adblock Plus 来重新取得 Internet 的控制权并且改变您浏览网页的方式。Adblock Plus是 Firefox 上的广告拦截插件，用户可下载或灵活的自定义拦截规则。
+&lt;a accesskey="X" href="https://addons.mozilla.org/zh-CN/firefox/addon/adblock-plus/?src=search"&gt;Firefox 用户点击进入 Adblock Plus下载页&lt;/a&gt;
+&lt;h4&gt;Navigational Sounds&lt;/h4&gt;
+习惯了 Internet Explorer 打开网页时辅助功能的声音提示了吗？觉得 Firefox 没有声音事件遗憾吗？安装 Navigational Sounds 就能满足你的愿望。
+&lt;a accesskey="X" href="https://addons.mozilla.org/zh-CN/firefox/addon/navigational-sounds/?src=search"&gt;Firefox 用户点击进入 Navigational Sounds 下载页&lt;/a&gt;
+&lt;h4&gt;NetVideoHunter&lt;/h4&gt;
+这款扩展是一个辅助下载工具，它能帮助你从Youtube、Facebook、Metacafe、Dailymotion、Break、VKontakte、DivShare以及其他更多网站上轻松下载视频和音乐。
+&lt;a accesskey="X" href="https://addons.mozilla.org/zh-CN/firefox/addon/netvideohunter-video-downloade/?src=search"&gt;Firefox 用户点击进入 NetVideoHunter 下载页&lt;/a&gt;
+&lt;h4&gt;xThunder&lt;/h4&gt;
+xThunder 可以管理常用下载器（Windows，Linux，Mac），并支持迅雷、快车、QQ旋风、电驴、磁力、飞速盘等专用链接解析。
+&lt;a accesskey="X" href="https://addons.mozilla.org/zh-CN/firefox/addon/xthunder/?src=search"&gt;Firefox 用户点击进入 xThunder 下载页&lt;/a&gt;
+&lt;h4&gt;网页翻译&lt;/h4&gt;
+这是中国火狐社区提供的一款调用有道翻译进行网页英汉互译的插件。
+&lt;a href="http://mozilla.com.cn/thread-52722-1-1.html"&gt;点击转到中国火狐社区网页翻译插件介绍下载页&lt;/a&gt;
+&lt;h4&gt;User Agent Switcher&lt;/h4&gt;
+想用电脑访问手机网站，想在电脑上玩手机页游，可是浏览器总是无法打开手机网页，这款插件就能满足你的需求。User Agent Switcher 直观的选项可以让你方便的设置浏览器UA，有了它，访问手机网页不再是问题。
+&lt;a href="https://addons.mozilla.org/zh-CN/firefox/addon/user-agent-switcher/"&gt;Firefox用户点击进入User Agent Switcher下载页&lt;/a&gt;&lt;/div&gt;</description><category>firefox</category><category>扩展</category><category>插件</category><category>浏览器</category><category>火狐</category><category>网页</category><guid>https://nvdacn.github.io/posts/Firefox/</guid><pubDate>Fri, 20 Jan 2017 02:04:00 GMT</pubDate></item><item><title>星光双语 1.6.1,修正修复来回切合成器后的拷贝乱码</title><link>https://nvdacn.github.io/posts/sv/</link><dc:creator>酱油</dc:creator><description>&lt;div&gt;&lt;p&gt;插件名称： 星光双语
+版本： 1.6.1
+作者： 永远的星光
+类型： 中英文双语语音驱动插件
+支持苹果vocalizer和微软sapi5音库
+可以选择数字的读法，有中文数值、中文数字、英文数值、英文数字四种。用默认的语音库快捷键nvda+ctrl+左右光标找到项目，再上下光标即可选择。
+英语朗读方式有朗读单词和朗读字母两种。
+若语音合成器无法正确加载，可能需要安装&lt;a accesskey="x" href="http://mywind.sinaapp.com/tianyi/mQrYnaqYR3e2/%E5%BE%AE%E8%BD%AFVBC%E8%BF%90%E8%A1%8C%E5%BA%93_%E7%9D%BF%E6%B4%BE%E5%85%8B_2016.11.17.zip"&gt;微软VC运行库&lt;/a&gt;。&lt;/p&gt;
+&lt;p&gt;星光双语1.4.3以后更新内容：
+1、把中英文的默认音库都设为苹果音库，方便新安装的用户的操作；
+2、加入了li-li等几个中文的压缩音库；
+3、解决从星光双语切换到其它合成器时星光小板剪贴板拷贝功能失效的问题（配合星光小板2.1以上版本有效）；
+4、修正用插件切换声卡时，微软sapi5音库不跟着切换的问题；
+5、可调整从朗读中文转换到朗读英文时的间隔时间（中文苹果音库，英文微软sapi5音库时有效）；
+6、增加可选音质，用苹果高清音质音库的不必装纯驱动版了；
+7、修改配置文件为starVoice.ini，避免和苹果原版驱动配置文件的重叠；
+8、解决英文单词中含有大写字母时的朗读问题，如oneKey之前会读成onekey，现在正常了；
+9、可以选择在中文与中文之间有空格时进行间隔停顿；
+10、修复选择数字读法时会漏读小数点的问题；
+11、优化苹果音库做为英文音库时，两种字母读法的朗读效果。
+星光双语1.4.3更新：
+修正台湾注音符号不朗读的问题。
+星光双语1.4更新：
+一、优化字母朗读方式，并设置成字母朗读1和字母朗读2两种，以适应不同的语音库和听读习惯。
+二、增加可选择是用变调朗读大写字母还是用中文音库朗读大写字母。
+注：语音库快捷键是nvda+ctrl+左右光标找项目，上下光标调参数&lt;/p&gt;
+&lt;p&gt;&lt;a accesskey="x" href="http://www.nvdacn.com/189.php/3qimmaQRrY3q.nvda-addon"&gt;本地下载:星光双语 1.6.1&lt;/a&gt;
+&lt;a accesskey="x" href="http://www.nvdacn.com/189.php/N3YJz27jQbIz.nvda-addon"&gt;本地下载：星光双语 1.6.1 For XP&lt;/a&gt;
+&lt;a accesskey="x" href="https://eyun.baidu.com/s/3eS9hDlC"&gt;百度盘备用下载：星光双语（提取密码5qbu）&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description><category>sapi5</category><category>vocalizer</category><category>双语</category><category>插件</category><category>语音库</category><guid>https://nvdacn.github.io/posts/sv/</guid><pubDate>Sun, 13 Nov 2016 02:24:00 GMT</pubDate></item><item><title>星光小板2.2,修复来回切合成器后的拷贝乱码</title><link>https://nvdacn.github.io/posts/sc/</link><dc:creator>酱油</dc:creator><description>&lt;div&gt;&lt;p&gt;插件名称： 星光小板
+插件版本： 2.2
+插件作者： 永远的星光
+本插件支持剪贴板操作和所听操作。有任何改进建议请发送至邮箱：admin@rgong.com、或直接到&lt;a href="http://shang.qq.com/wpa/qunwpa?idkey=4e49a74cbe597b87d65de9707e362b6557b0162bd766069a32d0e99cb4c9d9d5"&gt;NVDA中文交流群&lt;/a&gt;直接联系永远的星光，感谢使用！&lt;/p&gt;
+&lt;p&gt;本插件主要支持剪贴板操作、缓冲区操作和文本操作，附带字词翻译解释，完善对系统日期和时间的朗读。&lt;/p&gt;
+&lt;p&gt;2.1更新日志：
+一、在输入手势中加入星光小板的分项，小板的所有快捷键都将在该分项下集中管理；
+二、修改为在剪贴板和缓冲区操作中，热键加小键盘1到6强行朗读出中文标点；
+三、解决从星光双语切换到其它合成器时，拷贝缓冲区功能失效的问题（星光双语1.5.7以上版本有效）；
+四、把“将所听到的内容拷贝到剪贴板”和“将所听到的内容追加到剪贴板”的热键改为nvda+c和nvda+d，避开和office快捷键的重叠冲突。&lt;/p&gt;
+&lt;p&gt;1.10更新日志：
+一、增加听读光标在文本中所处行列、和文本行数字数综述的功能，热键为windows+小键盘删除键和回车键。
+二、优化对系统日期和时间的朗读，nvda+单击f12朗读含秒数的时间，双击f12朗读日期和星期，单击f11朗读农历日期和当日次日节气，双击f11朗读临近两个节气。
+三、增加打开星光小板使用说明的热键，热键为windows+小键盘减号。&lt;/p&gt;
+&lt;p&gt;具体热键说明：
+星光小板的功能主要有三块：以ctrl键操作剪贴板；以ctrl+windows键操作朗读内容（缓冲区）；以windows操作文字窗口，然后是一些辅助功能。
+第一，剪贴板操作：
+将所听到的内容添加到剪贴板：Ctrl+上翻页
+将所听到的内容拷贝到剪贴板：Ctrl+下翻页
+读剪贴板第一行：Ctrl+小键盘除号
+读剪贴板最后一行：Ctrl+小键盘乘号
+读剪贴板前一行：Ctrl+小键盘7
+从当前行读到最后一行：Ctrl+小键盘8
+读剪贴板后一行：Ctrl+小键盘9
+在剪贴板中向前跳过十行：Ctrl+小键盘减号
+在剪贴板中向后跳过10行：Ctrl+小键盘加号
+读剪贴板前一个字词：Ctrl+小键盘4
+读剪贴板当前字词（双击解释）：Ctrl+小键盘5
+读剪贴板后一个字词：Ctrl+小键盘6
+读剪贴板前一个字母：Ctrl+小键盘1
+读剪贴板当前字母（双击解释）：Ctrl+小键盘2
+读剪贴板后一个字母：Ctrl+小键盘3
+听读剪贴板当前行序号：Ctrl+小键盘删除键
+综述剪贴板信息：Ctrl+小键盘回车&lt;/p&gt;
+&lt;p&gt;第二，所听操作（缓冲区操作）：
+打开听到内容中的网址链接：Windows+Ctrl+小键盘回车
+读所听到内容全文：Windows+Ctrl+小键盘加号
+读所听到内容的前一个字词：Windows+Ctrl+小键盘4
+读所听到内容的当前字词（双击解释）：Windows+Ctrl+小键盘5
+读所听到内容的后一个字词：Windows+Ctrl+小键盘6
+读所听到内容的前一个字母：Windows+Ctrl+小键盘1
+读所听到内容的当前字母（双击解释）：Windows+Ctrl+小键盘2
+读所听到内容的后一个字母：Windows+Ctrl+小键盘3&lt;/p&gt;
+&lt;p&gt;第三，文字窗口操作：
+拷贝网页/拷贝全文：windows+小键盘加号
+把剪贴板当前行粘贴到光标所在处：windows+小键盘8
+把剪贴板当前字词粘贴到光标所在处：windows+小键盘9
+听读光标位置：Windows+小键盘删除键
+综述文本信息：Windows+小键盘回车
+选择开始点：windows+小键盘4
+选择结束点：windows+小键盘6
+听读选中的内容：windows+小键盘5
+设置书签：windows+小键盘1
+移到书签：windows+小键盘2
+删除书签：windows+小键盘3&lt;/p&gt;
+&lt;p&gt;第四，两个开关热键：
+解释英语单词时读不读词性的开关：nvda+x
+苹果语音驱动的剪贴板降级朗读模式开关：nvda+z（降级影响ctrl+小键盘8的效果，只有用原版苹果语音驱动需要降级）&lt;/p&gt;
+&lt;p&gt;第五，其它辅助功能：
+1、给系统热键的复制和粘贴增加语音提示；
+2、完善时间和日期朗读，热键nvda+单击双击f11和f12；
+3、打开星光小板使用说明，热键windows+小键盘减号。&lt;/p&gt;
+&lt;p&gt;---历史更新记录---
+星光小板1.9更新日志：
+一、增加书签功能，热键windows+小键盘123。书签是按文件名进行保存，若是相同名称的两个文件会共用一个书签。
+二、修正windows+小键盘46的选开始结束点功能，使多个文本窗口可以同时选开始点，再各自选结束点，互不影响。
+三、增加解释英语单词时识别和解释带复数的单词。
+四、修正按字词朗读剪贴板和缓冲区时漏读中文标点的问题。&lt;/p&gt;
+&lt;p&gt;星光小板1.8更新日志：
+一、增加在翻译解释英语单词时读不读词性的开关，开关热键：nvda+x。
+二、增加剪贴板的苹果语音驱动降级模式朗读方式，开关热键：nvda+z。
+降级模式使使用苹果语音驱动的朋友能正常使用小板的剪贴板逐行朗读功能，但在降级模式中当前行不会跟随行焦点移动。
+例如，若剪贴板里有30排内容，当前是在第5排。要是在正常模式下，按ctrl+小键盘8从第5排开始朗读，当读到第9排时按下停止，之后再按ctrl+8小板会从第9排继续朗读。
+而使用苹果语音驱动降级模式后按ctrl+8从第5排开始朗读，读到第9排按下停止，再按ctrl+8还是只能从第5排读起。&lt;/p&gt;
+&lt;p&gt;星光小板1.7更新日志：
+一、补充汉译英词库，基本覆盖所有常用单词。
+二、增加小键盘2、5三击拆分解释功能。这功能是为编程准备的，不看代码的人可以忽略。具体内容是在按快捷键后将当前单词按大写字母拆分成多个单词再解释，如isExists会在大写字母E处截断拆分，变成is和Exists后分别解释。
+操作举例：
+在记事本里按ctrl+左右光标听读某个方法名称，听到后按windows+ctrl+双击小键盘5解释(有标点时先按6绕开）；听不到解释时改三击，这时就会拆分解释了。如想逐条听解释可在这时按住ctrl后，先按下番页，再按小键盘79。
+注：三击解释会覆盖缓冲区原本的内容。&lt;/p&gt;
+&lt;p&gt;星光小板1.6更新日志：
+一、增加英文解释功能。现在在听读剪贴板和缓冲区时双击小键盘2和5都能进行中英文解释。
+二、修正朗读网页选中内容时的一个bug。&lt;/p&gt;
+&lt;p&gt;星光小板1.5更新日志：
+一、为简化按键和增加稳定性，将文字窗口热键从ctrl+shift改为windows。
+二、增加拷贝网页/拷贝全文的热键windows+小键盘加号。
+三、给系统热键ctrl+c和ctrl+v增加提示语音。
+四、增加可在读屏选项的输入手势中对热键进行调整。&lt;/p&gt;
+&lt;p&gt;星光小板1.4更新日志：
+一、把所有ctrl+shift+&lt;em&gt;的热键改成了ctrl+&lt;/em&gt;。也就是所有剪贴板操作只按ctrl+操作键，不用再加shift。
+二、增加剪贴板操作在朗读当前字词时的中文解释功能，单击读字，双击读解释。
+三、增加朗读所听内容全文的热键。
+四、增加选择开始点、选择结束点和读出所选内容的功能。
+五、把粘贴剪贴板当前行和当前字词到文本的热键由ctrl+windows+小键盘8和9改成了ctrl+shift+小键盘8和9，使其和新增加的选开始点、结束点放在一处，整合成统一的文本编辑功能。
+&lt;a accesskey="x" href="http://12355939.d.yyupload.com/down/12355939/nvdacn/addons/%E6%98%9F%E5%85%89%E5%B0%8F%E6%9D%BF2.2__%E4%BF%AE%E5%A4%8D%E6%9D%A5%E5%9B%9E%E5%88%87%E5%90%88%E6%88%90%E5%99%A8%E5%90%8E%E7%9A%84%E6%8B%B7%E8%B4%9D%E4%B9%B1%E7%A0%81.nvda-addon"&gt;本地下载1：星光小板2.2&lt;/a&gt;
+&lt;a accesskey="x" href="http://www.nvdacn.com/189.php/MJNRFfv22a2u.nvda-addon"&gt;本地下载2：星光小版 2.2&lt;/a&gt;
+&lt;a accesskey="x" href="https://eyun.baidu.com/s/3mi8V2FQ"&gt;百度盘备用下载：星光小板（提取密码YIV9）&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description><category>剪贴板</category><category>复制</category><category>插件</category><category>缓冲区</category><guid>https://nvdacn.github.io/posts/sc/</guid><pubDate>Sun, 13 Nov 2016 01:59:00 GMT</pubDate></item></channel></rss>

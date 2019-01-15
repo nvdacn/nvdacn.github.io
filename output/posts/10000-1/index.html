@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article# " lang="zh_cn">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>将黄未黄的输入法朗读插件开发项目 | NVDA中文站</title>
+<link href="../../assets/css/all-nocdn.css" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Playfair+Display:700,900" rel="stylesheet">
+<meta name="theme-color" content="#5670d4">
+<meta name="generator" content="Nikola (getnikola.com)">
+<link rel="alternate" type="application/rss+xml" title="RSS" href="../../rss.xml">
+<link rel="canonical" href="https://nvdacn.github.io/posts/10000-1/">
+<!--[if lt IE 9]><script src="../../assets/js/html5.js"></script><![endif]--><meta name="author" content="打酱油">
+<link rel="prev" href="../nvda-conferences2018/" title="NVDACon2018大会报道" type="text/html">
+<link rel="next" href="../988/" title="输入法插件开发失败退款通告" type="text/html">
+<meta property="og:site_name" content="NVDA中文站">
+<meta property="og:title" content="将黄未黄的输入法朗读插件开发项目">
+<meta property="og:url" content="https://nvdacn.github.io/posts/10000-1/">
+<meta property="og:description" content="大家一直期待着的输入法朗读插件的开发周期已经超过了25号，如果插件开发出来了，网站不就第一时间报喜了，显然没有，所以这次我是来报忧的。
+项目已经超时，而插件未能如期出现。按照之前的协定，我们应该追回首期汇款并结束这个项目。然而大家不会觉得可惜了吗？当初制定合同就是为了让大家能用上免费好用的输入法朗读插件，改善大家的朗读体验，按照合同执行，就说明这个项目就这样黄了，大家也不会有免费好用的输入法朗读插">
+<meta property="og:type" content="article">
+<meta property="article:published_time" content="2018-06-27T08:11:00+08:00">
+</head>
+<body>
+<a href="#content" class="sr-only sr-only-focusable">跳到主内容</a>
+
+<!-- Header and menu bar -->
+<div class="container">
+      <header class="blog-header py-3"><div class="row nbb-header align-items-center">
+          <div class="col-md-3 col-xs-2 col-sm-2" style="width: auto;">
+            <button class="navbar-toggler navbar-light bg-light nbb-navbar-toggler" type="button" data-toggle="collapse" data-target=".bs-nav-collapsible" aria-controls="bs-navbar" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse bs-nav-collapsible bootblog4-search-form-holder">
+                
+            </div>
+        </div>
+          <div class="col-md-6 col-xs-10 col-sm-10 bootblog4-brand" style="width: auto;">
+            <a class="navbar-brand blog-header-logo text-dark" href="https://nvdacn.github.io/">
+
+            <span id="blog-title">NVDA中文站</span>
+        </a>
+          </div>
+            <div class="col-md-3 justify-content-end align-items-center bs-nav-collapsible collapse flex-collapse bootblog4-right-nav">
+            <nav class="navbar navbar-light bg-white"><ul class="navbar-nav bootblog4-right-nav">
+<li class="nav-item">
+    <a href="index.md" id="sourcelink" class="nav-link">资源</a>
+    </li>
+
+
+                    
+            </ul></nav>
+</div>
+    </div>
+</header><nav class="navbar navbar-expand-md navbar-light bg-white static-top"><div class="collapse navbar-collapse bs-nav-collapsible" id="bs-navbar">
+            <ul class="navbar-nav nav-fill d-flex w-100">
+<li class="nav-item">
+<a href="../../archive.html" class="nav-link">文章归档</a>
+                </li>
+<li class="nav-item">
+<a href="../../categories/" class="nav-link">标签</a>
+                </li>
+<li class="nav-item">
+<a href="../../rss.xml" class="nav-link">RSS 源</a>
+
+                
+            </li>
+</ul>
+</div>
+<!-- /.navbar-collapse -->
+</nav>
+</div>
+
+<div class="container" id="content" role="main">
+    <div class="body-content">
+        <!--Body content-->
+        
+        
+<article class="post-text h-entry hentry postpage" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title" itemprop="headline name"><a href="." class="u-url">将黄未黄的输入法朗读插件开发项目</a></h1>
+
+        <div class="metadata">
+            <p class="byline author vcard"><span class="byline-name fn" itemprop="author">
+                    <a href="../../authors/da-jiang-you/">打酱油</a>
+            </span></p>
+            <p class="dateline">
+            <a href="." rel="bookmark">
+            <time class="published dt-published" datetime="2018-06-27T08:11:00+08:00" itemprop="datePublished" title="2018-06-27 08:11">2018-06-27 08:11</time></a>
+            </p>
+            
+        <p class="sourceline"><a href="index.md" class="sourcelink">资源</a></p>
+
+        </div>
+        
+
+    </header><div class="e-content entry-content" itemprop="articleBody text">
+    <p>大家一直期待着的输入法朗读插件的开发周期已经超过了25号，如果插件开发出来了，网站不就第一时间报喜了，显然没有，所以这次我是来报忧的。
+项目已经超时，而插件未能如期出现。按照之前的协定，我们应该追回首期汇款并结束这个项目。然而大家不会觉得可惜了吗？当初制定合同就是为了让大家能用上免费好用的输入法朗读插件，改善大家的朗读体验，按照合同执行，就说明这个项目就这样黄了，大家也不会有免费好用的输入法朗读插件了。我有这么想，还有多少人也这么想呢？我不知道，所以我们在qq群搞了个投票：有兴趣给建议的朋友请加群，加群链接：http://shang.qq.com/wpa/qunwpa?idkey=4e49a74cbe597b87d65de9707e362b6557b0162bd766069a32d0e99cb4c9d9d5
+或者在此直接留言也可。对于这个结果，我只能说非常抱歉，到底这个项目何去何从，大家决定咯，投票截止日期7月1日。
+投票选项分别为：1、我想要钱，插件随缘吧
+2；插件更重要，请继续开发
+3、我有话想说，请加群或留言表达您的建议。
+另，如果哪位想退款的话请直接联系我，随时均可。
+qq号：
+385356344
+邮箱：
+vgjh2005@gmail.com
+感谢大家一如既往的支持。退款与否都是大家的权利，请按照自己内心的想法执行即可，无需道德绑架。为了财务透明，本站也会出公告向公众展示，感谢大家的支持。
+by 雪岭冰龙</p>
+    </div>
+    <aside class="postpromonav"><nav><ul class="pager hidden-print">
+<li class="previous">
+                <a href="../nvda-conferences2018/" rel="prev" title="NVDACon2018大会报道">上一篇文章</a>
+            </li>
+            <li class="next">
+                <a href="../988/" rel="next" title="输入法插件开发失败退款通告">下一篇文章</a>
+            </li>
+        </ul></nav></aside></article><!--End of body content--><footer id="footer">
+            Contents © 2019         <a href="mailto:dingpengyu06@gmail.com">nvdacn</a> - Powered by         <a href="https://getnikola.com" rel="nofollow">Nikola</a>         
+            
+        </footer>
+</div>
+</div>
+
+
+        <script src="../../assets/js/all-nocdn.js"></script><!-- fancy dates --><script>
+    moment.locale("zh-cn");
+    fancydates(0, "YYYY-MM-DD HH:mm");
+    </script><!-- end fancy dates --><script>
+    baguetteBox.run('div#content', {
+        ignoreClass: 'islink',
+        captions: function(element) {
+            return element.getElementsByTagName('img')[0].alt;
+    }});
+    </script>
+</body>
+</html>

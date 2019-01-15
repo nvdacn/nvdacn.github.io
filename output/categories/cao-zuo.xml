@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>NVDA中文站 (关于文章 操作)</title><link>https://nvdacn.github.io/</link><description></description><atom:link href="https://nvdacn.github.io/categories/cao-zuo.xml" rel="self" type="application/rss+xml"></atom:link><language>zh_cn</language><copyright>Contents © 2019 &lt;a href="mailto:dingpengyu06@gmail.com"&gt;nvdacn&lt;/a&gt; </copyright><lastBuildDate>Tue, 15 Jan 2019 05:25:44 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>电脑新手的好帮手——Control Usage Assistant 控件用法助理 2.4</title><link>https://nvdacn.github.io/posts/cua/</link><dc:creator>酱油</dc:creator><description>&lt;p&gt;Control Usage Assistant
+作者： Joseph Lee
+使用此插件来查看如何与焦点所在的控件交互。按下“NVDA加H”获取一个与此控件交互的简短的帮助信息。如编辑框、复选框等。
+不知道什么时候发布了2.4版，我也悄悄把他汉化了一下。
+之前的版本记得“Arrow”译为箭头（本来就是哈），
+为了更接地气，我吧它译为“光标”,哈哈，好多老忙都这么称呼，不是吗？
+汉化： 漫辰
+E-mail： manchen_0528@outlook.com
+&lt;a accesskey="x" href="http://www.nvdacn.com/189.php/aqUZBfzqUv63"&gt;本地下载：控件用法助理&lt;/a&gt;&lt;/p&gt;</description><category>助理</category><category>帮助</category><category>控件</category><category>插件</category><category>操作</category><guid>https://nvdacn.github.io/posts/cua/</guid><pubDate>Thu, 02 Feb 2017 14:39:00 GMT</pubDate></item></channel></rss>

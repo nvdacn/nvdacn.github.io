@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>NVDA中文站 (关于文章 控件)</title><link>https://nvdacn.github.io/</link><description></description><atom:link href="https://nvdacn.github.io/categories/kong-jian.xml" rel="self" type="application/rss+xml"></atom:link><language>zh_cn</language><copyright>Contents © 2019 &lt;a href="mailto:dingpengyu06@gmail.com"&gt;nvdacn&lt;/a&gt; </copyright><lastBuildDate>Tue, 15 Jan 2019 05:25:43 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>电脑新手的好帮手——Control Usage Assistant 控件用法助理 2.4</title><link>https://nvdacn.github.io/posts/cua/</link><dc:creator>酱油</dc:creator><description>&lt;p&gt;Control Usage Assistant
+作者： Joseph Lee
+使用此插件来查看如何与焦点所在的控件交互。按下“NVDA加H”获取一个与此控件交互的简短的帮助信息。如编辑框、复选框等。
+不知道什么时候发布了2.4版，我也悄悄把他汉化了一下。
+之前的版本记得“Arrow”译为箭头（本来就是哈），
+为了更接地气，我吧它译为“光标”,哈哈，好多老忙都这么称呼，不是吗？
+汉化： 漫辰
+E-mail： manchen_0528@outlook.com
+&lt;a accesskey="x" href="http://www.nvdacn.com/189.php/aqUZBfzqUv63"&gt;本地下载：控件用法助理&lt;/a&gt;&lt;/p&gt;</description><category>助理</category><category>帮助</category><category>控件</category><category>插件</category><category>操作</category><guid>https://nvdacn.github.io/posts/cua/</guid><pubDate>Thu, 02 Feb 2017 14:39:00 GMT</pubDate></item><item><title>音频主题 Audio Themes 3D 5.1 正式版</title><link>https://nvdacn.github.io/posts/at/</link><dc:creator>酱油</dc:creator><description>&lt;p&gt;插件名称： 音频主题 Audio Themes 3D
+插件版本： 5.1 正式版
+插件作者： Musharraf Omer
+此插件可以用声音的方式来提示NVDA所浏览的控件类型，并且可以以3D方式提示控件的所在位置。插件设置非常灵活，可以设置技能听音效提示又能读出控件类型。支持设置音效的音量。可以自己制作打包音频主题，你可以任意为不同的控件选择不同的声音或是对该控件不做任何处理。
+这款插件功能之全面，超越了原来所有的声音提示插件。但是使用这类插件可能会让NVDA响应缓慢。请酌情选择。
+&lt;a accesskey="x" href="http://addons.nvda-project.org/files/get.php?file=ath"&gt;远程下载 音频主题3D 5.1正式版&lt;/a&gt;
+&lt;a accesskey="x" href="http://12355939.d.yyupload.com/down/12355939/nvdacn/addons/3d%E9%9F%B3%E9%A2%91%E4%B8%BB%E9%A2%98%205.1.rar"&gt;本地下载：音频主题3D 5.1正式版&lt;/a&gt;
+&lt;a accesskey="x" href="http://www.zd.hk/disk/?id=AJvUVre6nqea"&gt;本地下载2：音频主题3D&lt;/a&gt;&lt;/p&gt;</description><category>3d</category><category>个性化</category><category>主题</category><category>声音</category><category>控件</category><category>提示</category><category>插件</category><category>音效</category><category>音频</category><guid>https://nvdacn.github.io/posts/at/</guid><pubDate>Fri, 22 Jul 2016 13:22:00 GMT</pubDate></item></channel></rss>
