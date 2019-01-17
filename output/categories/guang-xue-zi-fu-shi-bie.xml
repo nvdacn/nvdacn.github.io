@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>NVDA中文站 (关于文章 光学字符识别)</title><link>https://nvdacn.github.io/</link><description></description><atom:link href="https://nvdacn.github.io/categories/guang-xue-zi-fu-shi-bie.xml" rel="self" type="application/rss+xml"></atom:link><language>zh_cn</language><copyright>Contents © 2019 &lt;a href="mailto:dingpengyu06@gmail.com"&gt;nvdacn&lt;/a&gt; </copyright><lastBuildDate>Tue, 15 Jan 2019 05:25:46 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>OCR光学字符识别插件</title><link>https://nvdacn.github.io/posts/124/</link><dc:creator>酱油</dc:creator><description>&lt;p&gt;作者：NV Access Limited &amp;amp; other contributors
-    这是一个OCR光学字符识别插件，当NVDA访问到不可识别的控件时，恰好这个控件上又有描述性的文字，就可以启动OCR识别。
-运行OCR识别的快捷键是“nvda+r”。按下快捷键后，读屏会提示“运行OCR”，这时稍等一小会儿，当按数字键盘区能听到读屏发音的时候，就证明识别完了。此时用nvda的屏幕浏览热键，就可以浏览到OCR所识别出的内容，浏览光标浏览到的每一个字都是对应屏幕实际位置的，也就是说，你可以对这些OCR识别出来的元素进行操作。
-现在OCR识别的准确率有限，识别的准确与否也取决于所识别软件界面的颜色和图像花哨程度。
-&lt;a accesskey="X" href="http://addons.nvda-project.org/files/get.php?file=ocr"&gt;官方下载：NVDA_OCR_0.2.20120529&lt;/a&gt;
-&lt;a accesskey="x" href="http://dl.nvdacn.com/down/12355939/nvdacn/addons/ocr_0.20120529.01.nvda-addon"&gt;本地下载1：ocr插件
-&lt;/a&gt;&lt;a accesskey="x" href="http://www.zd.hk/disk/?id=fm2iyaZRB32e"&gt;本地下载2：NVDA_OCR_0.2.20120529&lt;/a&gt;&lt;/p&gt;</description><category>ocr</category><category>光学字符识别</category><category>插件</category><guid>https://nvdacn.github.io/posts/124/</guid><pubDate>Sat, 04 Oct 2014 10:23:00 GMT</pubDate></item></channel></rss>

@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>NVDA中文站 (关于文章 合成器)</title><link>https://nvdacn.github.io/</link><description></description><atom:link href="https://nvdacn.github.io/categories/he-cheng-qi.xml" rel="self" type="application/rss+xml"></atom:link><language>zh_cn</language><copyright>Contents © 2019 &lt;a href="mailto:dingpengyu06@gmail.com"&gt;nvdacn&lt;/a&gt; </copyright><lastBuildDate>Tue, 15 Jan 2019 05:25:46 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>切换合成器 SwitchSynth</title><link>https://nvdacn.github.io/posts/439/</link><dc:creator>酱油</dc:creator><description>&lt;div&gt;&lt;p&gt;插件名称： 切换合成器SwitchSynth
-插件版本： 官方同步更新
-作者： Tyler Spivey
-使用方法： 下面以实际操作举例。
-插件总共可以设置6个合成器进行快速切换，按NVDA+CTRL+Shift+1到6选择预设的合成器插槽。
-首先按NVDA+CTRL+Shift+1选择第一个合成器插槽，假设药设置Sapi5为第一个合成器，按完NVDA+CTRL+Shift+1之后，打开NVDA语音合成器，选择Microsoft Speech API version 5，然后设定好Sapi5接口药用的语音和语音参数，之后按NVDA+CTRL+Shift+V保存设置，以后按NVDA+CTRL+Shift+1就可以快速选择Sapi5合成器，并且会应用当时保存时所做的配置。&lt;/p&gt;
-&lt;p&gt;&lt;a accesskey="X" href="http://addons.nvda-project.org/files/get.php?file=sws"&gt;远程下载 切换合成器SwitchSynth&lt;/a&gt;
-&lt;a accesskey="x" href="http://www.zd.hk/disk/?id=NRzmQbIjMRJj"&gt;本地下载1：切换合成器 SwitchSynth&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description><category>合成器</category><category>快捷键</category><category>插件</category><category>语音库</category><guid>https://nvdacn.github.io/posts/439/</guid><pubDate>Thu, 05 May 2016 09:58:00 GMT</pubDate></item></channel></rss>
